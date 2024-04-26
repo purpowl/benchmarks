@@ -1,0 +1,103 @@
+ /home/purpowl/.local/lib/python3.10/site-packages/orion/benchmark/task/profet/model_utils.py:32: RuntimeWarning:The `profet` extras needs to be installed in order to use the Profet tasks.
+Error: cannot import name 'Tester' from 'numpy.testing' (/home/purpowl/.local/lib/python3.10/site-packages/numpy/testing/__init__.py)
+Use `pip install orion[profet]` to install the profet extras.
+Identification
+==============
+name: CNN_avgpooling_hopt_step1
+version: 1
+user: purpowl
+
+
+Commandline
+===========
+./run_experiments.sh --hparams hparams/MotorImagery/BNCI2014001/CNN.yaml --data_folder eeg_data/ --seed 1986 --output_folder results/MotorImagery/BNCI2014001/CNN_avgpool/hopt/step1/exp --nsbj 3 --nsess 2 --nruns 1 --eval_metric acc --eval_set dev --train_mode leave-one-session-out --rnd_dir True --fmin~uniform(0.1, 5, precision=2) --fmax~uniform(20.0, 50.0, precision=3) --tmax~uniform(1.0, 4.0, precision=2) --n_steps_channel_selection~uniform(1, 3,discrete=True) --avg_models~uniform(1, 15,discrete=True) --number_of_epochs~uniform(250, 1000, discrete=True) --lr~choices([0.01, 0.005, 0.001, 0.0005, 0.0001]) --batch_size_exponent~uniform(4, 6,discrete=True) --repeat_augment 0 --cnn_temporal_kernels~uniform(4, 64,discrete=True) --cnn_temporal_kernelsize~uniform(5, 62,discrete=True) --cnn_poolsize_~uniform(1, 10,discrete=True) --cnn_poolstride_~uniform(1, 10,discrete=True) --dropout~uniform(0.0, 0.5) --dense_layer_1_neuron~uniform(10, 20,discrete=True) --dense_layer_2_neuron~uniform(5, 10,discrete=True)
+
+
+Config
+======
+max trials: 50
+max broken: 3
+working dir: 
+
+
+Algorithm
+=========
+tpe:
+    equal_weight: False
+    full_weight_num: 25
+    gamma: 0.25
+    max_retry: 100
+    n_ei_candidates: 24
+    n_initial_points: 20
+    parallel_strategy:
+        of_type: StatusBasedParallelStrategy
+        strategy_configs:
+            broken:
+                of_type: MaxParallelStrategy
+    prior_weight: 1.0
+    seed: 1986
+
+
+Space
+=====
+/avg_models: uniform(1, 15, discrete=True)
+/batch_size_exponent: uniform(4, 6, discrete=True)
+/cnn_poolsize_: uniform(1, 10, discrete=True)
+/cnn_poolstride_: uniform(1, 10, discrete=True)
+/cnn_temporal_kernels: uniform(4, 64, discrete=True)
+/cnn_temporal_kernelsize: uniform(5, 62, discrete=True)
+/dense_layer_1_neuron: uniform(10, 20, discrete=True)
+/dense_layer_2_neuron: uniform(5, 10, discrete=True)
+/dropout: uniform(0.0, 0.5)
+/fmax: uniform(20.0, 50.0, precision=3)
+/fmin: uniform(0.1, 5.0, precision=2)
+/lr: choices([0.01, 0.005, 0.001, 0.0005, 0.0001])
+/n_steps_channel_selection: uniform(1, 3, discrete=True)
+/number_of_epochs: uniform(250, 1000, discrete=True)
+/tmax: uniform(1.0, 4.0, precision=2)
+
+
+Meta-data
+=========
+user: purpowl
+datetime: 2024-04-15 00:03:28.616351
+orion version: 0.2.7
+VCS:
+
+
+
+Parent experiment
+=================
+root:
+parent:
+adapter:
+
+
+Stats
+=====
+completed: True
+trials completed: 50
+best trial:
+  id: c4b956d1728deae493961178b67c0db5
+  evaluation: 0.29761904761904756
+  params:
+    /avg_models: 4
+    /batch_size_exponent: 6
+    /cnn_poolsize_: 8
+    /cnn_poolstride_: 1
+    /cnn_temporal_kernels: 30
+    /cnn_temporal_kernelsize: 17
+    /dense_layer_1_neuron: 18
+    /dense_layer_2_neuron: 7
+    /dropout: 0.4932
+    /fmax: 45.0
+    /fmin: 0.14
+    /lr: 0.001
+    /n_steps_channel_selection: 3
+    /number_of_epochs: 981
+    /tmax: 4.0
+start time: 2024-04-15 00:03:28.616351
+finish time: 2024-04-15 13:10:57.475067
+elapsed_time: 13:07:27.958302
+
+

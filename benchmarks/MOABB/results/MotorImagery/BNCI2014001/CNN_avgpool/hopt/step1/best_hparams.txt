@@ -1,0 +1,15 @@
+avg_models: 4
+batch_size_exponent: 6
+cnn_poolsize_: 8
+cnn_poolstride_: 1
+cnn_temporal_kernels: 30
+cnn_temporal_kernelsize: 17
+dense_layer_1_neuron: 18
+dense_layer_2_neuron: 7
+dropout: 0.4932
+fmax: 45.0
+fmin: 0.14
+lr: 0.001
+n_steps_channel_selection: 3
+number_of_epochs: 981
+tmax: 4.0

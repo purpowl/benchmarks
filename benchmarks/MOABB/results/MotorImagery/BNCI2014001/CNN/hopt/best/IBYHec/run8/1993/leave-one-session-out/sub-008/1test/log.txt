@@ -1,0 +1,2134 @@
+2024-04-14 18:54:15,406 - speechbrain.core - INFO - Beginning experiment!
+2024-04-14 18:54:15,407 - speechbrain.core - INFO - Experiment folder: results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test
+2024-04-14 18:54:15,789 - speechbrain.utils.superpowers - DEBUG - absl-py==2.1.0
+appdirs==1.4.4
+astunparse==1.6.3
+attrs==23.2.0
+black==19.10b0
+blinker==1.4
+braindecode==0.8.1
+certifi==2024.2.2
+charset-normalizer==3.3.2
+click==8.0.4
+cloudpickle==3.0.0
+command-not-found==0.3
+contourpy==1.2.0
+coverage==7.4.4
+cryptography==3.4.8
+cycler==0.12.1
+Cython==3.0.9
+dbus-python==1.2.18
+decorator==5.1.1
+distro==1.7.0
+distro-info==1.1+ubuntu0.1
+dnspython==2.6.1
+docstring-inheritance==2.2.0
+EDFlib-Python==1.0.8
+einops==0.7.0
+emcee==3.1.4
+emukit==0.4.10
+entrypoints==0.3
+exceptiongroup==1.2.0
+falcon==3.1.3
+falcon-cors==1.1.7
+filelock==3.13.3
+flake8==3.7.9
+flatbuffers==24.3.25
+fonttools==4.50.0
+fsspec==2024.3.1
+gast==0.5.4
+gitdb==4.0.11
+GitPython==3.1.42
+google-pasta==0.2.0
+GPy==1.10.0
+grpcio==1.62.1
+gunicorn==21.2.0
+h5py==3.11.0
+httplib2==0.20.2
+huggingface-hub==0.22.1
+HyperPyYAML==1.2.2
+idna==3.6
+importlib-metadata==4.6.4
+iniconfig==2.0.0
+jeepney==0.7.1
+Jinja2==3.1.3
+joblib==1.3.2
+kaleido==0.2.1
+keras==3.2.1
+keyring==23.5.0
+kiwisolver==1.4.5
+launchpadlib==1.10.16
+lazr.restfulclient==0.14.4
+lazr.uri==1.0.6
+lazy_loader==0.3
+libclang==18.1.1
+Markdown==3.6
+markdown-it-py==3.0.0
+MarkupSafe==2.1.5
+matplotlib==3.8.3
+mccabe==0.6.1
+mdurl==0.1.2
+memory-profiler==0.61.0
+ml-dtypes==0.3.2
+mne==1.6.1
+mne-bids==0.13
+moabb==1.0.0
+more-itertools==8.10.0
+mpmath==1.3.0
+namex==0.0.7
+netifaces==0.11.0
+networkx==3.2.1
+numpy==1.26.4
+nvidia-cublas-cu12==12.1.3.1
+nvidia-cuda-cupti-cu12==12.1.105
+nvidia-cuda-nvrtc-cu12==12.1.105
+nvidia-cuda-runtime-cu12==12.1.105
+nvidia-cudnn-cu12==8.9.2.26
+nvidia-cufft-cu12==11.0.2.54
+nvidia-curand-cu12==10.3.2.106
+nvidia-cusolver-cu12==11.4.5.107
+nvidia-cusparse-cu12==12.1.0.106
+nvidia-nccl-cu12==2.19.3
+nvidia-nvjitlink-cu12==12.4.99
+nvidia-nvtx-cu12==12.1.105
+oauthlib==3.2.0
+opt-einsum==3.3.0
+optree==0.11.0
+orion==0.2.7
+packaging==24.0
+pandas==1.5.3
+paramz==0.9.6
+pathspec==0.12.1
+pillow==10.2.0
+platformdirs==4.2.0
+plotly==5.20.0
+pluggy==0.13.1
+pooch==1.8.1
+protobuf==4.25.3
+psutil==5.9.8
+py==1.11.0
+pyaml==23.12.0
+pybnn==0.0.5
+pycodestyle==2.5.0
+pyflakes==2.1.1
+Pygments==2.17.2
+PyGObject==3.42.1
+PyJWT==2.3.0
+pymongo==4.6.3
+pyparsing==2.4.7
+pyriemann==0.5
+pytest==7.4.4
+python-apt==2.4.0+ubuntu2
+python-dateutil==2.9.0.post0
+pytz==2024.1
+PyYAML==6.0.1
+regex==2023.12.25
+requests==2.31.0
+rich==13.7.1
+ruamel.yaml==0.18.6
+ruamel.yaml.clib==0.2.8
+scikit-learn==1.4.1.post1
+scikit-optimize==0.10.1
+scipy==1.11.4
+seaborn==0.12.2
+SecretStorage==3.3.1
+sentencepiece==0.2.0
+six==1.16.0
+skorch==0.15.0
+smmap==5.0.1
+speechbrain==1.0.0
+sympy==1.12
+systemd-python==234
+tabulate==0.9.0
+tenacity==8.2.3
+tensorboard==2.16.2
+tensorboard-data-server==0.7.2
+tensorflow==2.16.1
+tensorflow-io-gcs-filesystem==0.36.0
+termcolor==2.4.0
+threadpoolctl==3.4.0
+toml==0.10.2
+tomli==2.0.1
+torch==2.2.2
+torchaudio==2.2.2
+torchinfo==1.8.0
+torchvision==0.17.2
+tqdm==4.66.2
+triton==2.2.0
+typed-ast==1.5.5
+typing_extensions==4.10.0
+ubuntu-advantage-tools==8001
+ufw==0.36.1
+unattended-upgrades==0.1
+urllib3==1.26.18
+wadllib==1.3.6
+wcwidth==0.2.13
+Werkzeug==3.0.2
+wrapt==1.16.0
+yamllint==1.23.0
+zipp==1.0.0
+
+
+2024-04-14 18:54:15,950 - __main__ - INFO - Experiment directory: results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test
+2024-04-14 18:54:15,951 - __main__ - INFO - Input shape: torch.Size([462, 22, 1])
+2024-04-14 18:54:15,951 - __main__ - INFO - Training set avg value: -2.9332070994314563e-08
+2024-04-14 18:54:15,952 - __main__ - INFO - Number of examples: 232 (training), 56 (validation), 288 (test)
+2024-04-14 18:54:16,138 - speechbrain.core - INFO - Gradscaler enabled: False. Using precision: fp32.
+2024-04-14 18:54:16,138 - speechbrain.core - INFO - 37.5k trainable parameters in MOABBBrain
+2024-04-14 18:54:16,263 - speechbrain.utils.epoch_loop - INFO - Going into epoch 1
+2024-04-14 18:54:16,628 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:54:16,630 - speechbrain.utils.train_logger - INFO - epoch: 1, lr: 1.67e-04 - train loss: 1.60 - valid loss: 1.39, valid f1: 1.69e-01, valid acc: 1.96e-01, valid cm: [[ 6  1  2  5]
+ [ 7  0  3  4]
+ [ 6  2  3  3]
+ [11  0  1  2]]
+2024-04-14 18:54:16,630 - speechbrain.utils.epoch_loop - INFO - Going into epoch 2
+2024-04-14 18:54:16,814 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:54:16,816 - speechbrain.utils.train_logger - INFO - epoch: 2, lr: 3.89e-04 - train loss: 1.55 - valid loss: 1.39, valid f1: 1.58e-01, valid acc: 2.50e-01, valid cm: [[ 1 12  0  1]
+ [ 2 12  0  0]
+ [ 3 10  1  0]
+ [ 4 10  0  0]]
+2024-04-14 18:54:16,816 - speechbrain.utils.epoch_loop - INFO - Going into epoch 3
+2024-04-14 18:54:17,016 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:54:17,018 - speechbrain.utils.train_logger - INFO - epoch: 3, lr: 6.11e-04 - train loss: 1.44 - valid loss: 1.39, valid f1: 1.01e-01, valid acc: 2.50e-01, valid cm: [[ 0 14  0  0]
+ [ 0 14  0  0]
+ [ 0 14  0  0]
+ [ 1 13  0  0]]
+2024-04-14 18:54:17,019 - speechbrain.utils.epoch_loop - INFO - Going into epoch 4
+2024-04-14 18:54:17,207 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:54:17,209 - speechbrain.utils.train_logger - INFO - epoch: 4, lr: 8.33e-04 - train loss: 1.39 - valid loss: 1.39, valid f1: 1.00e-01, valid acc: 2.50e-01, valid cm: [[ 0 14  0  0]
+ [ 0 14  0  0]
+ [ 0 14  0  0]
+ [ 0 14  0  0]]
+2024-04-14 18:54:17,209 - speechbrain.utils.epoch_loop - INFO - Going into epoch 5
+2024-04-14 18:54:17,394 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:54:17,395 - speechbrain.utils.train_logger - INFO - epoch: 5, lr: 9.44e-04 - train loss: 1.38 - valid loss: 1.38, valid f1: 1.75e-01, valid acc: 2.86e-01, valid cm: [[ 0 12  0  2]
+ [ 0 13  0  1]
+ [ 0 13  0  1]
+ [ 0 11  0  3]]
+2024-04-14 18:54:17,396 - speechbrain.utils.epoch_loop - INFO - Going into epoch 6
+2024-04-14 18:54:17,583 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:54:17,585 - speechbrain.utils.train_logger - INFO - epoch: 6, lr: 7.22e-04 - train loss: 1.40 - valid loss: 1.38, valid f1: 1.70e-01, valid acc: 2.86e-01, valid cm: [[ 0 11  0  3]
+ [ 0 13  0  1]
+ [ 0  9  0  5]
+ [ 0 11  0  3]]
+2024-04-14 18:54:17,585 - speechbrain.utils.epoch_loop - INFO - Going into epoch 7
+2024-04-14 18:54:17,769 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:54:17,771 - speechbrain.utils.train_logger - INFO - epoch: 7, lr: 5.00e-04 - train loss: 1.37 - valid loss: 1.38, valid f1: 2.09e-01, valid acc: 3.21e-01, valid cm: [[ 0 10  0  4]
+ [ 0 12  0  2]
+ [ 0  8  0  6]
+ [ 0  8  0  6]]
+2024-04-14 18:54:17,771 - speechbrain.utils.epoch_loop - INFO - Going into epoch 8
+2024-04-14 18:54:17,962 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:54:17,964 - speechbrain.utils.train_logger - INFO - epoch: 8, lr: 2.78e-04 - train loss: 1.36 - valid loss: 1.38, valid f1: 2.38e-01, valid acc: 3.57e-01, valid cm: [[ 0 10  0  4]
+ [ 0 12  0  2]
+ [ 0  8  0  6]
+ [ 0  6  0  8]]
+2024-04-14 18:54:17,964 - speechbrain.utils.epoch_loop - INFO - Going into epoch 9
+2024-04-14 18:54:18,146 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:54:18,148 - speechbrain.utils.train_logger - INFO - epoch: 9, lr: 5.56e-05 - train loss: 1.37 - valid loss: 1.38, valid f1: 2.27e-01, valid acc: 3.39e-01, valid cm: [[ 0 10  0  4]
+ [ 0 11  0  3]
+ [ 0  8  0  6]
+ [ 0  6  0  8]]
+2024-04-14 18:54:18,148 - speechbrain.utils.epoch_loop - INFO - Going into epoch 10
+2024-04-14 18:54:18,331 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:54:18,333 - speechbrain.utils.train_logger - INFO - epoch: 10, lr: 1.67e-04 - train loss: 1.36 - valid loss: 1.38, valid f1: 2.27e-01, valid acc: 3.39e-01, valid cm: [[ 0 10  0  4]
+ [ 0 11  0  3]
+ [ 0  8  0  6]
+ [ 0  6  0  8]]
+2024-04-14 18:54:18,333 - speechbrain.utils.epoch_loop - INFO - Going into epoch 11
+2024-04-14 18:54:18,516 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:54:18,517 - speechbrain.utils.train_logger - INFO - epoch: 11, lr: 3.89e-04 - train loss: 1.36 - valid loss: 1.38, valid f1: 2.12e-01, valid acc: 3.21e-01, valid cm: [[ 0 10  0  4]
+ [ 0 11  0  3]
+ [ 0  7  0  7]
+ [ 0  7  0  7]]
+2024-04-14 18:54:18,517 - speechbrain.utils.epoch_loop - INFO - Going into epoch 12
+2024-04-14 18:54:18,698 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:54:18,700 - speechbrain.utils.train_logger - INFO - epoch: 12, lr: 6.11e-04 - train loss: 1.37 - valid loss: 1.38, valid f1: 2.14e-01, valid acc: 3.21e-01, valid cm: [[ 0 10  0  4]
+ [ 0 11  0  3]
+ [ 0  9  0  5]
+ [ 0  7  0  7]]
+2024-04-14 18:54:18,700 - speechbrain.utils.epoch_loop - INFO - Going into epoch 13
+2024-04-14 18:54:18,884 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:54:18,886 - speechbrain.utils.train_logger - INFO - epoch: 13, lr: 8.33e-04 - train loss: 1.35 - valid loss: 1.38, valid f1: 1.72e-01, valid acc: 2.86e-01, valid cm: [[ 0 12  0  2]
+ [ 0 13  0  1]
+ [ 0 11  0  3]
+ [ 0 11  0  3]]
+2024-04-14 18:54:18,886 - speechbrain.utils.epoch_loop - INFO - Going into epoch 14
+2024-04-14 18:54:19,072 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:54:19,074 - speechbrain.utils.train_logger - INFO - epoch: 14, lr: 9.44e-04 - train loss: 1.36 - valid loss: 1.38, valid f1: 2.57e-01, valid acc: 3.21e-01, valid cm: [[ 0 11  1  2]
+ [ 0 10  1  3]
+ [ 0  8  2  4]
+ [ 0  8  0  6]]
+2024-04-14 18:54:19,074 - speechbrain.utils.epoch_loop - INFO - Going into epoch 15
+2024-04-14 18:54:19,259 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:54:19,261 - speechbrain.utils.train_logger - INFO - epoch: 15, lr: 7.22e-04 - train loss: 1.33 - valid loss: 1.37, valid f1: 2.78e-01, valid acc: 3.39e-01, valid cm: [[ 0  9  1  4]
+ [ 0 10  1  3]
+ [ 0  7  3  4]
+ [ 0  7  1  6]]
+2024-04-14 18:54:19,261 - speechbrain.utils.epoch_loop - INFO - Going into epoch 16
+2024-04-14 18:54:19,450 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:54:19,452 - speechbrain.utils.train_logger - INFO - epoch: 16, lr: 5.00e-04 - train loss: 1.34 - valid loss: 1.37, valid f1: 3.07e-01, valid acc: 3.75e-01, valid cm: [[ 0  9  1  4]
+ [ 0 10  1  3]
+ [ 0  7  3  4]
+ [ 0  5  1  8]]
+2024-04-14 18:54:19,452 - speechbrain.utils.epoch_loop - INFO - Going into epoch 17
+2024-04-14 18:54:19,636 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:54:19,637 - speechbrain.utils.train_logger - INFO - epoch: 17, lr: 2.78e-04 - train loss: 1.32 - valid loss: 1.37, valid f1: 3.15e-01, valid acc: 3.75e-01, valid cm: [[0 9 1 4]
+ [0 8 1 5]
+ [0 5 4 5]
+ [0 3 2 9]]
+2024-04-14 18:54:19,638 - speechbrain.utils.epoch_loop - INFO - Going into epoch 18
+2024-04-14 18:54:19,818 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:54:19,820 - speechbrain.utils.train_logger - INFO - epoch: 18, lr: 5.56e-05 - train loss: 1.34 - valid loss: 1.37, valid f1: 3.15e-01, valid acc: 3.75e-01, valid cm: [[0 9 1 4]
+ [0 8 1 5]
+ [0 5 4 5]
+ [0 3 2 9]]
+2024-04-14 18:54:19,820 - speechbrain.utils.epoch_loop - INFO - Going into epoch 19
+2024-04-14 18:54:20,004 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:54:20,005 - speechbrain.utils.train_logger - INFO - epoch: 19, lr: 1.67e-04 - train loss: 1.34 - valid loss: 1.37, valid f1: 2.93e-01, valid acc: 3.57e-01, valid cm: [[0 9 1 4]
+ [0 8 1 5]
+ [0 6 3 5]
+ [0 3 2 9]]
+2024-04-14 18:54:20,006 - speechbrain.utils.epoch_loop - INFO - Going into epoch 20
+2024-04-14 18:54:20,189 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:54:20,191 - speechbrain.utils.train_logger - INFO - epoch: 20, lr: 3.89e-04 - train loss: 1.30 - valid loss: 1.37, valid f1: 3.20e-01, valid acc: 3.93e-01, valid cm: [[ 0  9  1  4]
+ [ 0  9  1  4]
+ [ 0  6  3  5]
+ [ 0  3  1 10]]
+2024-04-14 18:54:20,191 - speechbrain.utils.epoch_loop - INFO - Going into epoch 21
+2024-04-14 18:54:20,374 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:54:20,375 - speechbrain.utils.train_logger - INFO - epoch: 21, lr: 6.11e-04 - train loss: 1.31 - valid loss: 1.37, valid f1: 3.22e-01, valid acc: 3.93e-01, valid cm: [[ 0 10  1  3]
+ [ 0 10  1  3]
+ [ 0  7  3  4]
+ [ 0  4  1  9]]
+2024-04-14 18:54:20,375 - speechbrain.utils.epoch_loop - INFO - Going into epoch 22
+2024-04-14 18:54:20,563 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:54:20,565 - speechbrain.utils.train_logger - INFO - epoch: 22, lr: 8.33e-04 - train loss: 1.33 - valid loss: 1.36, valid f1: 3.57e-01, valid acc: 4.29e-01, valid cm: [[ 0  8  1  5]
+ [ 0  9  1  4]
+ [ 0  6  4  4]
+ [ 0  3  0 11]]
+2024-04-14 18:54:20,565 - speechbrain.utils.epoch_loop - INFO - Going into epoch 23
+2024-04-14 18:54:20,749 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:54:20,751 - speechbrain.utils.train_logger - INFO - epoch: 23, lr: 9.44e-04 - train loss: 1.30 - valid loss: 1.36, valid f1: 2.61e-01, valid acc: 3.57e-01, valid cm: [[ 0  4  1  9]
+ [ 0  7  1  6]
+ [ 0  5  1  8]
+ [ 0  2  0 12]]
+2024-04-14 18:54:20,751 - speechbrain.utils.epoch_loop - INFO - Going into epoch 24
+2024-04-14 18:54:20,940 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:54:20,941 - speechbrain.utils.train_logger - INFO - epoch: 24, lr: 7.22e-04 - train loss: 1.29 - valid loss: 1.35, valid f1: 3.41e-01, valid acc: 4.11e-01, valid cm: [[ 0  4  2  8]
+ [ 0  8  1  5]
+ [ 0  5  4  5]
+ [ 0  3  0 11]]
+2024-04-14 18:54:20,942 - speechbrain.utils.epoch_loop - INFO - Going into epoch 25
+2024-04-14 18:54:21,128 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:54:21,129 - speechbrain.utils.train_logger - INFO - epoch: 25, lr: 5.00e-04 - train loss: 1.29 - valid loss: 1.35, valid f1: 3.55e-01, valid acc: 4.29e-01, valid cm: [[ 0  7  2  5]
+ [ 0  9  1  4]
+ [ 0  5  4  5]
+ [ 0  3  0 11]]
+2024-04-14 18:54:21,129 - speechbrain.utils.epoch_loop - INFO - Going into epoch 26
+2024-04-14 18:54:21,310 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:54:21,312 - speechbrain.utils.train_logger - INFO - epoch: 26, lr: 2.78e-04 - train loss: 1.29 - valid loss: 1.34, valid f1: 3.61e-01, valid acc: 4.29e-01, valid cm: [[ 0  7  4  3]
+ [ 0  9  1  4]
+ [ 0  5  5  4]
+ [ 0  3  1 10]]
+2024-04-14 18:54:21,312 - speechbrain.utils.epoch_loop - INFO - Going into epoch 27
+2024-04-14 18:54:21,492 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:54:21,494 - speechbrain.utils.train_logger - INFO - epoch: 27, lr: 5.56e-05 - train loss: 1.26 - valid loss: 1.34, valid f1: 3.61e-01, valid acc: 4.29e-01, valid cm: [[ 0  7  4  3]
+ [ 0  9  1  4]
+ [ 0  5  5  4]
+ [ 0  3  1 10]]
+2024-04-14 18:54:21,494 - speechbrain.utils.epoch_loop - INFO - Going into epoch 28
+2024-04-14 18:54:21,675 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:54:21,677 - speechbrain.utils.train_logger - INFO - epoch: 28, lr: 1.67e-04 - train loss: 1.28 - valid loss: 1.34, valid f1: 3.61e-01, valid acc: 4.29e-01, valid cm: [[ 0  7  4  3]
+ [ 0  9  1  4]
+ [ 0  5  5  4]
+ [ 0  3  1 10]]
+2024-04-14 18:54:21,677 - speechbrain.utils.epoch_loop - INFO - Going into epoch 29
+2024-04-14 18:54:21,854 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:54:21,856 - speechbrain.utils.train_logger - INFO - epoch: 29, lr: 3.89e-04 - train loss: 1.26 - valid loss: 1.34, valid f1: 3.53e-01, valid acc: 4.29e-01, valid cm: [[ 0  6  3  5]
+ [ 0  9  1  4]
+ [ 0  5  4  5]
+ [ 0  2  1 11]]
+2024-04-14 18:54:21,856 - speechbrain.utils.epoch_loop - INFO - Going into epoch 30
+2024-04-14 18:54:22,035 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:54:22,036 - speechbrain.utils.train_logger - INFO - epoch: 30, lr: 6.11e-04 - train loss: 1.24 - valid loss: 1.34, valid f1: 3.68e-01, valid acc: 4.29e-01, valid cm: [[ 1  3  2  8]
+ [ 0  7  1  6]
+ [ 1  3  3  7]
+ [ 0  0  1 13]]
+2024-04-14 18:54:22,037 - speechbrain.utils.epoch_loop - INFO - Going into epoch 31
+2024-04-14 18:54:22,216 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:54:22,217 - speechbrain.utils.train_logger - INFO - epoch: 31, lr: 8.33e-04 - train loss: 1.24 - valid loss: 1.33, valid f1: 3.68e-01, valid acc: 4.46e-01, valid cm: [[ 0  4  4  6]
+ [ 0  7  2  5]
+ [ 0  4  5  5]
+ [ 0  0  1 13]]
+2024-04-14 18:54:22,217 - speechbrain.utils.epoch_loop - INFO - Going into epoch 32
+2024-04-14 18:54:22,396 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:54:22,398 - speechbrain.utils.train_logger - INFO - epoch: 32, lr: 9.44e-04 - train loss: 1.28 - valid loss: 1.33, valid f1: 3.56e-01, valid acc: 4.29e-01, valid cm: [[ 0  4  4  6]
+ [ 0  7  2  5]
+ [ 0  4  5  5]
+ [ 0  0  2 12]]
+2024-04-14 18:54:22,398 - speechbrain.utils.epoch_loop - INFO - Going into epoch 33
+2024-04-14 18:54:22,576 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:54:22,577 - speechbrain.utils.train_logger - INFO - epoch: 33, lr: 7.22e-04 - train loss: 1.23 - valid loss: 1.32, valid f1: 3.27e-01, valid acc: 4.11e-01, valid cm: [[ 0  9  2  3]
+ [ 0  7  2  5]
+ [ 0  5  3  6]
+ [ 0  0  1 13]]
+2024-04-14 18:54:22,577 - speechbrain.utils.epoch_loop - INFO - Going into epoch 34
+2024-04-14 18:54:22,756 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:54:22,757 - speechbrain.utils.train_logger - INFO - epoch: 34, lr: 5.00e-04 - train loss: 1.22 - valid loss: 1.31, valid f1: 3.26e-01, valid acc: 4.11e-01, valid cm: [[ 0  7  2  5]
+ [ 0  7  2  5]
+ [ 0  6  3  5]
+ [ 0  0  1 13]]
+2024-04-14 18:54:22,757 - speechbrain.utils.epoch_loop - INFO - Going into epoch 35
+2024-04-14 18:54:22,939 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:54:22,940 - speechbrain.utils.train_logger - INFO - epoch: 35, lr: 2.78e-04 - train loss: 1.17 - valid loss: 1.31, valid f1: 3.26e-01, valid acc: 4.11e-01, valid cm: [[ 0  6  2  6]
+ [ 0  7  2  5]
+ [ 0  4  3  7]
+ [ 0  0  1 13]]
+2024-04-14 18:54:22,941 - speechbrain.utils.epoch_loop - INFO - Going into epoch 36
+2024-04-14 18:54:23,118 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:54:23,120 - speechbrain.utils.train_logger - INFO - epoch: 36, lr: 5.56e-05 - train loss: 1.20 - valid loss: 1.31, valid f1: 3.25e-01, valid acc: 4.11e-01, valid cm: [[ 0  6  2  6]
+ [ 0  7  2  5]
+ [ 0  5  3  6]
+ [ 0  0  1 13]]
+2024-04-14 18:54:23,120 - speechbrain.utils.epoch_loop - INFO - Going into epoch 37
+2024-04-14 18:54:23,299 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:54:23,301 - speechbrain.utils.train_logger - INFO - epoch: 37, lr: 1.67e-04 - train loss: 1.15 - valid loss: 1.30, valid f1: 3.25e-01, valid acc: 4.11e-01, valid cm: [[ 0  6  2  6]
+ [ 0  7  2  5]
+ [ 0  6  3  5]
+ [ 0  0  1 13]]
+2024-04-14 18:54:23,301 - speechbrain.utils.epoch_loop - INFO - Going into epoch 38
+2024-04-14 18:54:23,479 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:54:23,480 - speechbrain.utils.train_logger - INFO - epoch: 38, lr: 3.89e-04 - train loss: 1.22 - valid loss: 1.30, valid f1: 3.52e-01, valid acc: 4.29e-01, valid cm: [[ 0  7  2  5]
+ [ 1  7  2  4]
+ [ 0  6  4  4]
+ [ 0  0  1 13]]
+2024-04-14 18:54:23,481 - speechbrain.utils.epoch_loop - INFO - Going into epoch 39
+2024-04-14 18:54:23,658 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:54:23,659 - speechbrain.utils.train_logger - INFO - epoch: 39, lr: 6.11e-04 - train loss: 1.19 - valid loss: 1.30, valid f1: 3.38e-01, valid acc: 4.11e-01, valid cm: [[ 0  4  3  7]
+ [ 1  6  2  5]
+ [ 1  4  4  5]
+ [ 0  0  1 13]]
+2024-04-14 18:54:23,659 - speechbrain.utils.epoch_loop - INFO - Going into epoch 40
+2024-04-14 18:54:23,838 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:54:23,839 - speechbrain.utils.train_logger - INFO - epoch: 40, lr: 8.33e-04 - train loss: 1.19 - valid loss: 1.29, valid f1: 3.29e-01, valid acc: 4.11e-01, valid cm: [[ 0  5  2  7]
+ [ 0  7  2  5]
+ [ 1  4  3  6]
+ [ 0  0  1 13]]
+2024-04-14 18:54:23,839 - speechbrain.utils.epoch_loop - INFO - Going into epoch 41
+2024-04-14 18:54:24,021 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:54:24,023 - speechbrain.utils.train_logger - INFO - epoch: 41, lr: 9.44e-04 - train loss: 1.17 - valid loss: 1.28, valid f1: 3.53e-01, valid acc: 4.29e-01, valid cm: [[ 0  8  1  5]
+ [ 2  8  1  3]
+ [ 0  6  3  5]
+ [ 1  0  0 13]]
+2024-04-14 18:54:24,023 - speechbrain.utils.epoch_loop - INFO - Going into epoch 42
+2024-04-14 18:54:24,202 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:54:24,204 - speechbrain.utils.train_logger - INFO - epoch: 42, lr: 7.22e-04 - train loss: 1.13 - valid loss: 1.26, valid f1: 3.07e-01, valid acc: 3.93e-01, valid cm: [[ 0  5  3  6]
+ [ 1  7  1  5]
+ [ 0  5  2  7]
+ [ 1  0  0 13]]
+2024-04-14 18:54:24,204 - speechbrain.utils.epoch_loop - INFO - Going into epoch 43
+2024-04-14 18:54:24,382 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:54:24,383 - speechbrain.utils.train_logger - INFO - epoch: 43, lr: 5.00e-04 - train loss: 1.12 - valid loss: 1.25, valid f1: 3.16e-01, valid acc: 3.93e-01, valid cm: [[ 0  4  5  5]
+ [ 2  7  2  3]
+ [ 0  3  2  9]
+ [ 1  0  0 13]]
+2024-04-14 18:54:24,383 - speechbrain.utils.epoch_loop - INFO - Going into epoch 44
+2024-04-14 18:54:24,562 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:54:24,564 - speechbrain.utils.train_logger - INFO - epoch: 44, lr: 2.78e-04 - train loss: 1.14 - valid loss: 1.25, valid f1: 3.85e-01, valid acc: 4.29e-01, valid cm: [[ 2  5  3  4]
+ [ 2  7  2  3]
+ [ 0  6  3  5]
+ [ 1  0  1 12]]
+2024-04-14 18:54:24,564 - speechbrain.utils.epoch_loop - INFO - Going into epoch 45
+2024-04-14 18:54:24,742 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:54:24,743 - speechbrain.utils.train_logger - INFO - epoch: 45, lr: 5.56e-05 - train loss: 1.13 - valid loss: 1.25, valid f1: 3.85e-01, valid acc: 4.29e-01, valid cm: [[ 2  5  3  4]
+ [ 2  7  2  3]
+ [ 0  6  3  5]
+ [ 1  0  1 12]]
+2024-04-14 18:54:24,744 - speechbrain.utils.epoch_loop - INFO - Going into epoch 46
+2024-04-14 18:54:24,923 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:54:24,924 - speechbrain.utils.train_logger - INFO - epoch: 46, lr: 1.67e-04 - train loss: 1.13 - valid loss: 1.25, valid f1: 3.95e-01, valid acc: 4.46e-01, valid cm: [[ 1  6  3  4]
+ [ 2  8  2  2]
+ [ 0  6  4  4]
+ [ 1  0  1 12]]
+2024-04-14 18:54:24,924 - speechbrain.utils.epoch_loop - INFO - Going into epoch 47
+2024-04-14 18:54:25,102 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:54:25,104 - speechbrain.utils.train_logger - INFO - epoch: 47, lr: 3.89e-04 - train loss: 1.08 - valid loss: 1.25, valid f1: 4.37e-01, valid acc: 4.82e-01, valid cm: [[ 1  6  3  4]
+ [ 2  8  2  2]
+ [ 0  6  6  2]
+ [ 1  0  1 12]]
+2024-04-14 18:54:25,104 - speechbrain.utils.epoch_loop - INFO - Going into epoch 48
+2024-04-14 18:54:25,282 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:54:25,283 - speechbrain.utils.train_logger - INFO - epoch: 48, lr: 6.11e-04 - train loss: 1.13 - valid loss: 1.25, valid f1: 4.76e-01, valid acc: 5.00e-01, valid cm: [[2 4 5 3]
+ [1 8 4 1]
+ [1 3 9 1]
+ [1 0 4 9]]
+2024-04-14 18:54:25,284 - speechbrain.utils.epoch_loop - INFO - Going into epoch 49
+2024-04-14 18:54:25,462 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:54:25,463 - speechbrain.utils.train_logger - INFO - epoch: 49, lr: 8.33e-04 - train loss: 1.16 - valid loss: 1.24, valid f1: 4.76e-01, valid acc: 5.18e-01, valid cm: [[ 1  5  5  3]
+ [ 2  8  3  1]
+ [ 1  3  8  2]
+ [ 1  0  1 12]]
+2024-04-14 18:54:25,464 - speechbrain.utils.epoch_loop - INFO - Going into epoch 50
+2024-04-14 18:54:25,640 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:54:25,642 - speechbrain.utils.train_logger - INFO - epoch: 50, lr: 9.44e-04 - train loss: 1.13 - valid loss: 1.23, valid f1: 4.00e-01, valid acc: 4.29e-01, valid cm: [[1 9 2 2]
+ [1 9 3 1]
+ [0 6 7 1]
+ [2 1 4 7]]
+2024-04-14 18:54:25,642 - speechbrain.utils.epoch_loop - INFO - Going into epoch 51
+2024-04-14 18:54:25,819 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:54:25,821 - speechbrain.utils.train_logger - INFO - epoch: 51, lr: 7.22e-04 - train loss: 1.10 - valid loss: 1.21, valid f1: 5.19e-01, valid acc: 5.36e-01, valid cm: [[ 4  6  2  2]
+ [ 2  8  2  2]
+ [ 2  4  6  2]
+ [ 1  0  1 12]]
+2024-04-14 18:54:25,821 - speechbrain.utils.epoch_loop - INFO - Going into epoch 52
+2024-04-14 18:54:26,000 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:54:26,002 - speechbrain.utils.train_logger - INFO - epoch: 52, lr: 5.00e-04 - train loss: 1.09 - valid loss: 1.20, valid f1: 5.81e-01, valid acc: 5.89e-01, valid cm: [[ 7  3  2  2]
+ [ 2  8  2  2]
+ [ 4  2  6  2]
+ [ 1  0  1 12]]
+2024-04-14 18:54:26,002 - speechbrain.utils.epoch_loop - INFO - Going into epoch 53
+2024-04-14 18:54:26,181 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:54:26,183 - speechbrain.utils.train_logger - INFO - epoch: 53, lr: 2.78e-04 - train loss: 1.08 - valid loss: 1.20, valid f1: 6.00e-01, valid acc: 6.07e-01, valid cm: [[ 8  3  2  1]
+ [ 2  8  2  2]
+ [ 4  2  6  2]
+ [ 1  0  1 12]]
+2024-04-14 18:54:26,183 - speechbrain.utils.epoch_loop - INFO - Going into epoch 54
+2024-04-14 18:54:26,361 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:54:26,363 - speechbrain.utils.train_logger - INFO - epoch: 54, lr: 5.56e-05 - train loss: 1.02 - valid loss: 1.20, valid f1: 6.00e-01, valid acc: 6.07e-01, valid cm: [[ 8  3  2  1]
+ [ 2  8  2  2]
+ [ 4  2  6  2]
+ [ 1  0  1 12]]
+2024-04-14 18:54:26,363 - speechbrain.utils.epoch_loop - INFO - Going into epoch 55
+2024-04-14 18:54:26,541 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:54:26,543 - speechbrain.utils.train_logger - INFO - epoch: 55, lr: 1.67e-04 - train loss: 1.01 - valid loss: 1.20, valid f1: 5.81e-01, valid acc: 5.89e-01, valid cm: [[ 7  4  2  1]
+ [ 2  8  2  2]
+ [ 4  2  6  2]
+ [ 1  0  1 12]]
+2024-04-14 18:54:26,543 - speechbrain.utils.epoch_loop - INFO - Going into epoch 56
+2024-04-14 18:54:26,724 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:54:26,726 - speechbrain.utils.train_logger - INFO - epoch: 56, lr: 3.89e-04 - train loss: 1.03 - valid loss: 1.19, valid f1: 5.48e-01, valid acc: 5.54e-01, valid cm: [[ 6  5  2  1]
+ [ 2  8  2  2]
+ [ 4  2  6  2]
+ [ 2  0  1 11]]
+2024-04-14 18:54:26,726 - speechbrain.utils.epoch_loop - INFO - Going into epoch 57
+2024-04-14 18:54:26,910 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:54:26,912 - speechbrain.utils.train_logger - INFO - epoch: 57, lr: 6.11e-04 - train loss: 1.03 - valid loss: 1.18, valid f1: 5.78e-01, valid acc: 5.89e-01, valid cm: [[ 5  5  2  2]
+ [ 2  8  2  2]
+ [ 2  2  8  2]
+ [ 1  0  1 12]]
+2024-04-14 18:54:26,912 - speechbrain.utils.epoch_loop - INFO - Going into epoch 58
+2024-04-14 18:54:27,096 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:54:27,097 - speechbrain.utils.train_logger - INFO - epoch: 58, lr: 8.33e-04 - train loss: 1.02 - valid loss: 1.18, valid f1: 5.31e-01, valid acc: 5.54e-01, valid cm: [[ 3  5  3  3]
+ [ 2  8  2  2]
+ [ 2  2  8  2]
+ [ 1  0  1 12]]
+2024-04-14 18:54:27,098 - speechbrain.utils.epoch_loop - INFO - Going into epoch 59
+2024-04-14 18:54:27,281 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:54:27,283 - speechbrain.utils.train_logger - INFO - epoch: 59, lr: 9.44e-04 - train loss: 1.05 - valid loss: 1.18, valid f1: 5.99e-01, valid acc: 6.07e-01, valid cm: [[ 8  4  1  1]
+ [ 2  8  2  2]
+ [ 4  2  6  2]
+ [ 1  0  1 12]]
+2024-04-14 18:54:27,283 - speechbrain.utils.epoch_loop - INFO - Going into epoch 60
+2024-04-14 18:54:27,469 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:54:27,471 - speechbrain.utils.train_logger - INFO - epoch: 60, lr: 7.22e-04 - train loss: 1.01 - valid loss: 1.18, valid f1: 5.94e-01, valid acc: 6.07e-01, valid cm: [[10  1  2  1]
+ [ 3  6  2  3]
+ [ 4  2  6  2]
+ [ 1  0  1 12]]
+2024-04-14 18:54:27,471 - speechbrain.utils.epoch_loop - INFO - Going into epoch 61
+2024-04-14 18:54:27,659 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:54:27,660 - speechbrain.utils.train_logger - INFO - epoch: 61, lr: 5.00e-04 - train loss: 9.59e-01 - valid loss: 1.17, valid f1: 6.15e-01, valid acc: 6.25e-01, valid cm: [[10  1  2  1]
+ [ 2  7  2  3]
+ [ 4  2  6  2]
+ [ 1  0  1 12]]
+2024-04-14 18:54:27,660 - speechbrain.utils.epoch_loop - INFO - Going into epoch 62
+2024-04-14 18:54:27,843 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:54:27,845 - speechbrain.utils.train_logger - INFO - epoch: 62, lr: 2.78e-04 - train loss: 9.82e-01 - valid loss: 1.16, valid f1: 6.02e-01, valid acc: 6.07e-01, valid cm: [[ 9  2  2  1]
+ [ 2  8  2  2]
+ [ 4  2  6  2]
+ [ 2  0  1 11]]
+2024-04-14 18:54:27,845 - speechbrain.utils.epoch_loop - INFO - Going into epoch 63
+2024-04-14 18:54:28,027 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:54:28,029 - speechbrain.utils.train_logger - INFO - epoch: 63, lr: 5.56e-05 - train loss: 9.90e-01 - valid loss: 1.15, valid f1: 6.02e-01, valid acc: 6.07e-01, valid cm: [[ 9  2  2  1]
+ [ 2  8  2  2]
+ [ 4  2  6  2]
+ [ 2  0  1 11]]
+2024-04-14 18:54:28,029 - speechbrain.utils.epoch_loop - INFO - Going into epoch 64
+2024-04-14 18:54:28,210 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:54:28,212 - speechbrain.utils.train_logger - INFO - epoch: 64, lr: 1.67e-04 - train loss: 9.84e-01 - valid loss: 1.15, valid f1: 6.17e-01, valid acc: 6.25e-01, valid cm: [[ 9  2  2  1]
+ [ 2  8  2  2]
+ [ 4  2  6  2]
+ [ 1  0  1 12]]
+2024-04-14 18:54:28,212 - speechbrain.utils.epoch_loop - INFO - Going into epoch 65
+2024-04-14 18:54:28,392 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:54:28,394 - speechbrain.utils.train_logger - INFO - epoch: 65, lr: 3.89e-04 - train loss: 9.62e-01 - valid loss: 1.14, valid f1: 5.61e-01, valid acc: 5.71e-01, valid cm: [[ 6  4  2  2]
+ [ 2  8  2  2]
+ [ 4  2  6  2]
+ [ 1  0  1 12]]
+2024-04-14 18:54:28,394 - speechbrain.utils.epoch_loop - INFO - Going into epoch 66
+2024-04-14 18:54:28,577 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:54:28,579 - speechbrain.utils.train_logger - INFO - epoch: 66, lr: 6.11e-04 - train loss: 1.01 - valid loss: 1.12, valid f1: 5.80e-01, valid acc: 5.89e-01, valid cm: [[ 7  3  1  3]
+ [ 2  8  2  2]
+ [ 4  2  6  2]
+ [ 1  0  1 12]]
+2024-04-14 18:54:28,579 - speechbrain.utils.epoch_loop - INFO - Going into epoch 67
+2024-04-14 18:54:28,760 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:54:28,762 - speechbrain.utils.train_logger - INFO - epoch: 67, lr: 8.33e-04 - train loss: 9.68e-01 - valid loss: 1.12, valid f1: 6.01e-01, valid acc: 6.07e-01, valid cm: [[ 6  2  3  3]
+ [ 2  8  3  1]
+ [ 3  2  8  1]
+ [ 1  0  1 12]]
+2024-04-14 18:54:28,762 - speechbrain.utils.epoch_loop - INFO - Going into epoch 68
+2024-04-14 18:54:28,945 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:54:28,946 - speechbrain.utils.train_logger - INFO - epoch: 68, lr: 9.44e-04 - train loss: 9.37e-01 - valid loss: 1.12, valid f1: 5.80e-01, valid acc: 5.89e-01, valid cm: [[ 6  2  3  3]
+ [ 2  8  2  2]
+ [ 1  2  7  4]
+ [ 1  0  1 12]]
+2024-04-14 18:54:28,947 - speechbrain.utils.epoch_loop - INFO - Going into epoch 69
+2024-04-14 18:54:29,128 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:54:29,130 - speechbrain.utils.train_logger - INFO - epoch: 69, lr: 7.22e-04 - train loss: 9.74e-01 - valid loss: 1.11, valid f1: 5.66e-01, valid acc: 5.71e-01, valid cm: [[ 6  3  3  2]
+ [ 2  8  2  2]
+ [ 3  2  7  2]
+ [ 1  0  2 11]]
+2024-04-14 18:54:29,130 - speechbrain.utils.epoch_loop - INFO - Going into epoch 70
+2024-04-14 18:54:29,307 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:54:29,309 - speechbrain.utils.train_logger - INFO - epoch: 70, lr: 5.00e-04 - train loss: 9.22e-01 - valid loss: 1.10, valid f1: 5.86e-01, valid acc: 5.89e-01, valid cm: [[ 6  3  3  2]
+ [ 1  9  3  1]
+ [ 4  2  7  1]
+ [ 1  0  2 11]]
+2024-04-14 18:54:29,309 - speechbrain.utils.epoch_loop - INFO - Going into epoch 71
+2024-04-14 18:54:29,488 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:54:29,490 - speechbrain.utils.train_logger - INFO - epoch: 71, lr: 2.78e-04 - train loss: 9.26e-01 - valid loss: 1.09, valid f1: 5.83e-01, valid acc: 5.89e-01, valid cm: [[ 7  3  2  2]
+ [ 1  9  2  2]
+ [ 4  2  6  2]
+ [ 1  0  2 11]]
+2024-04-14 18:54:29,490 - speechbrain.utils.epoch_loop - INFO - Going into epoch 72
+2024-04-14 18:54:29,668 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:54:29,670 - speechbrain.utils.train_logger - INFO - epoch: 72, lr: 5.56e-05 - train loss: 9.05e-01 - valid loss: 1.09, valid f1: 5.81e-01, valid acc: 5.89e-01, valid cm: [[ 7  3  2  2]
+ [ 2  8  2  2]
+ [ 4  2  6  2]
+ [ 1  0  1 12]]
+2024-04-14 18:54:29,670 - speechbrain.utils.epoch_loop - INFO - Going into epoch 73
+2024-04-14 18:54:29,848 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:54:29,850 - speechbrain.utils.train_logger - INFO - epoch: 73, lr: 1.67e-04 - train loss: 9.34e-01 - valid loss: 1.08, valid f1: 5.98e-01, valid acc: 6.07e-01, valid cm: [[ 7  3  2  2]
+ [ 1  9  2  2]
+ [ 4  2  6  2]
+ [ 1  0  1 12]]
+2024-04-14 18:54:29,850 - speechbrain.utils.epoch_loop - INFO - Going into epoch 74
+2024-04-14 18:54:30,031 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:54:30,033 - speechbrain.utils.train_logger - INFO - epoch: 74, lr: 3.89e-04 - train loss: 8.89e-01 - valid loss: 1.08, valid f1: 5.98e-01, valid acc: 6.07e-01, valid cm: [[ 7  3  2  2]
+ [ 1  9  2  2]
+ [ 4  2  6  2]
+ [ 1  0  1 12]]
+2024-04-14 18:54:30,033 - speechbrain.utils.epoch_loop - INFO - Going into epoch 75
+2024-04-14 18:54:30,225 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:54:30,227 - speechbrain.utils.train_logger - INFO - epoch: 75, lr: 6.11e-04 - train loss: 8.97e-01 - valid loss: 1.07, valid f1: 5.81e-01, valid acc: 5.89e-01, valid cm: [[ 7  3  2  2]
+ [ 2  8  2  2]
+ [ 4  2  6  2]
+ [ 1  0  1 12]]
+2024-04-14 18:54:30,227 - speechbrain.utils.epoch_loop - INFO - Going into epoch 76
+2024-04-14 18:54:30,409 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:54:30,410 - speechbrain.utils.train_logger - INFO - epoch: 76, lr: 8.33e-04 - train loss: 9.05e-01 - valid loss: 1.07, valid f1: 6.16e-01, valid acc: 6.25e-01, valid cm: [[10  1  1  2]
+ [ 3  7  2  2]
+ [ 5  1  6  2]
+ [ 1  0  1 12]]
+2024-04-14 18:54:30,411 - speechbrain.utils.epoch_loop - INFO - Going into epoch 77
+2024-04-14 18:54:30,589 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:54:30,591 - speechbrain.utils.train_logger - INFO - epoch: 77, lr: 9.44e-04 - train loss: 8.98e-01 - valid loss: 1.06, valid f1: 6.71e-01, valid acc: 6.79e-01, valid cm: [[11  1  1  1]
+ [ 2  8  2  2]
+ [ 3  2  7  2]
+ [ 2  0  0 12]]
+2024-04-14 18:54:30,591 - speechbrain.utils.epoch_loop - INFO - Going into epoch 78
+2024-04-14 18:54:30,770 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:54:30,772 - speechbrain.utils.train_logger - INFO - epoch: 78, lr: 7.22e-04 - train loss: 9.37e-01 - valid loss: 1.04, valid f1: 6.56e-01, valid acc: 6.61e-01, valid cm: [[ 9  2  1  2]
+ [ 2  9  2  1]
+ [ 3  2  7  2]
+ [ 2  0  0 12]]
+2024-04-14 18:54:30,772 - speechbrain.utils.epoch_loop - INFO - Going into epoch 79
+2024-04-14 18:54:30,970 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:54:30,971 - speechbrain.utils.train_logger - INFO - epoch: 79, lr: 5.00e-04 - train loss: 9.32e-01 - valid loss: 1.04, valid f1: 5.96e-01, valid acc: 6.07e-01, valid cm: [[ 7  1  3  3]
+ [ 2  8  3  1]
+ [ 3  2  6  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:30,971 - speechbrain.utils.epoch_loop - INFO - Going into epoch 80
+2024-04-14 18:54:31,157 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:54:31,158 - speechbrain.utils.train_logger - INFO - epoch: 80, lr: 2.78e-04 - train loss: 8.51e-01 - valid loss: 1.03, valid f1: 5.86e-01, valid acc: 5.89e-01, valid cm: [[ 7  2  3  2]
+ [ 2  8  3  1]
+ [ 2  3  7  2]
+ [ 2  0  1 11]]
+2024-04-14 18:54:31,158 - speechbrain.utils.epoch_loop - INFO - Going into epoch 81
+2024-04-14 18:54:31,336 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:54:31,337 - speechbrain.utils.train_logger - INFO - epoch: 81, lr: 5.56e-05 - train loss: 8.81e-01 - valid loss: 1.02, valid f1: 6.05e-01, valid acc: 6.07e-01, valid cm: [[ 8  1  3  2]
+ [ 2  8  3  1]
+ [ 2  3  7  2]
+ [ 2  0  1 11]]
+2024-04-14 18:54:31,338 - speechbrain.utils.epoch_loop - INFO - Going into epoch 82
+2024-04-14 18:54:31,521 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:54:31,522 - speechbrain.utils.train_logger - INFO - epoch: 82, lr: 1.67e-04 - train loss: 8.69e-01 - valid loss: 1.01, valid f1: 6.05e-01, valid acc: 6.07e-01, valid cm: [[ 8  1  3  2]
+ [ 2  8  3  1]
+ [ 2  3  7  2]
+ [ 2  0  1 11]]
+2024-04-14 18:54:31,523 - speechbrain.utils.epoch_loop - INFO - Going into epoch 83
+2024-04-14 18:54:31,701 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:54:31,702 - speechbrain.utils.train_logger - INFO - epoch: 83, lr: 3.89e-04 - train loss: 8.61e-01 - valid loss: 1.01, valid f1: 6.33e-01, valid acc: 6.43e-01, valid cm: [[ 9  1  2  2]
+ [ 2  8  3  1]
+ [ 4  2  6  2]
+ [ 1  0  0 13]]
+2024-04-14 18:54:31,703 - speechbrain.utils.epoch_loop - INFO - Going into epoch 84
+2024-04-14 18:54:31,880 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:54:31,882 - speechbrain.utils.train_logger - INFO - epoch: 84, lr: 6.11e-04 - train loss: 8.72e-01 - valid loss: 1.01, valid f1: 5.97e-01, valid acc: 6.07e-01, valid cm: [[10  2  0  2]
+ [ 2  8  3  1]
+ [ 5  2  5  2]
+ [ 2  0  1 11]]
+2024-04-14 18:54:31,882 - speechbrain.utils.epoch_loop - INFO - Going into epoch 85
+2024-04-14 18:54:32,062 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:54:32,063 - speechbrain.utils.train_logger - INFO - epoch: 85, lr: 8.33e-04 - train loss: 8.62e-01 - valid loss: 9.96e-01, valid f1: 6.28e-01, valid acc: 6.25e-01, valid cm: [[ 8  2  3  1]
+ [ 2  8  4  0]
+ [ 2  3  8  1]
+ [ 2  0  1 11]]
+2024-04-14 18:54:32,064 - speechbrain.utils.epoch_loop - INFO - Going into epoch 86
+2024-04-14 18:54:32,242 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:54:32,243 - speechbrain.utils.train_logger - INFO - epoch: 86, lr: 9.44e-04 - train loss: 8.83e-01 - valid loss: 1.00, valid f1: 6.27e-01, valid acc: 6.25e-01, valid cm: [[ 8  2  3  1]
+ [ 2  8  3  1]
+ [ 2  2  9  1]
+ [ 2  0  2 10]]
+2024-04-14 18:54:32,243 - speechbrain.utils.epoch_loop - INFO - Going into epoch 87
+2024-04-14 18:54:32,422 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:54:32,423 - speechbrain.utils.train_logger - INFO - epoch: 87, lr: 7.22e-04 - train loss: 8.12e-01 - valid loss: 1.01, valid f1: 5.50e-01, valid acc: 5.54e-01, valid cm: [[ 7  4  1  2]
+ [ 2  8  2  2]
+ [ 4  2  6  2]
+ [ 2  0  2 10]]
+2024-04-14 18:54:32,423 - speechbrain.utils.epoch_loop - INFO - Going into epoch 88
+2024-04-14 18:54:32,602 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:54:32,603 - speechbrain.utils.train_logger - INFO - epoch: 88, lr: 5.00e-04 - train loss: 8.60e-01 - valid loss: 1.00, valid f1: 5.58e-01, valid acc: 5.71e-01, valid cm: [[ 7  4  1  2]
+ [ 2  8  2  2]
+ [ 4  2  5  3]
+ [ 1  0  1 12]]
+2024-04-14 18:54:32,603 - speechbrain.utils.epoch_loop - INFO - Going into epoch 89
+2024-04-14 18:54:32,781 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:54:32,782 - speechbrain.utils.train_logger - INFO - epoch: 89, lr: 2.78e-04 - train loss: 8.25e-01 - valid loss: 9.94e-01, valid f1: 5.58e-01, valid acc: 5.71e-01, valid cm: [[ 7  4  1  2]
+ [ 2  8  3  1]
+ [ 3  2  5  4]
+ [ 1  0  1 12]]
+2024-04-14 18:54:32,782 - speechbrain.utils.epoch_loop - INFO - Going into epoch 90
+2024-04-14 18:54:32,963 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:54:32,964 - speechbrain.utils.train_logger - INFO - epoch: 90, lr: 5.56e-05 - train loss: 8.18e-01 - valid loss: 9.92e-01, valid f1: 5.60e-01, valid acc: 5.71e-01, valid cm: [[ 7  3  2  2]
+ [ 2  8  3  1]
+ [ 3  2  5  4]
+ [ 1  0  1 12]]
+2024-04-14 18:54:32,965 - speechbrain.utils.epoch_loop - INFO - Going into epoch 91
+2024-04-14 18:54:33,142 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:54:33,144 - speechbrain.utils.train_logger - INFO - epoch: 91, lr: 1.67e-04 - train loss: 8.02e-01 - valid loss: 9.91e-01, valid f1: 5.60e-01, valid acc: 5.71e-01, valid cm: [[ 7  3  2  2]
+ [ 2  8  3  1]
+ [ 3  2  5  4]
+ [ 1  0  1 12]]
+2024-04-14 18:54:33,144 - speechbrain.utils.epoch_loop - INFO - Going into epoch 92
+2024-04-14 18:54:33,324 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:54:33,325 - speechbrain.utils.train_logger - INFO - epoch: 92, lr: 3.89e-04 - train loss: 7.91e-01 - valid loss: 9.88e-01, valid f1: 5.79e-01, valid acc: 5.89e-01, valid cm: [[ 8  2  2  2]
+ [ 2  8  3  1]
+ [ 3  2  5  4]
+ [ 1  0  1 12]]
+2024-04-14 18:54:33,325 - speechbrain.utils.epoch_loop - INFO - Going into epoch 93
+2024-04-14 18:54:33,509 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:54:33,510 - speechbrain.utils.train_logger - INFO - epoch: 93, lr: 6.11e-04 - train loss: 8.08e-01 - valid loss: 9.80e-01, valid f1: 5.93e-01, valid acc: 6.07e-01, valid cm: [[ 8  2  2  2]
+ [ 2  8  3  1]
+ [ 4  2  5  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:33,511 - speechbrain.utils.epoch_loop - INFO - Going into epoch 94
+2024-04-14 18:54:33,693 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:54:33,695 - speechbrain.utils.train_logger - INFO - epoch: 94, lr: 8.33e-04 - train loss: 7.93e-01 - valid loss: 9.78e-01, valid f1: 5.66e-01, valid acc: 5.71e-01, valid cm: [[ 7  3  1  3]
+ [ 2  8  3  1]
+ [ 4  2  6  2]
+ [ 2  0  1 11]]
+2024-04-14 18:54:33,695 - speechbrain.utils.epoch_loop - INFO - Going into epoch 95
+2024-04-14 18:54:33,875 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:54:33,877 - speechbrain.utils.train_logger - INFO - epoch: 95, lr: 9.44e-04 - train loss: 8.20e-01 - valid loss: 9.45e-01, valid f1: 6.15e-01, valid acc: 6.25e-01, valid cm: [[ 8  2  2  2]
+ [ 2  8  3  1]
+ [ 4  2  6  2]
+ [ 1  0  0 13]]
+2024-04-14 18:54:33,877 - speechbrain.utils.epoch_loop - INFO - Going into epoch 96
+2024-04-14 18:54:34,064 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:54:34,065 - speechbrain.utils.train_logger - INFO - epoch: 96, lr: 7.22e-04 - train loss: 7.98e-01 - valid loss: 9.42e-01, valid f1: 6.15e-01, valid acc: 6.25e-01, valid cm: [[ 7  2  2  3]
+ [ 2  8  3  1]
+ [ 3  1  7  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:34,066 - speechbrain.utils.epoch_loop - INFO - Going into epoch 97
+2024-04-14 18:54:34,247 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:54:34,249 - speechbrain.utils.train_logger - INFO - epoch: 97, lr: 5.00e-04 - train loss: 7.94e-01 - valid loss: 9.45e-01, valid f1: 6.15e-01, valid acc: 6.25e-01, valid cm: [[ 7  2  3  2]
+ [ 2  8  3  1]
+ [ 2  2  7  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:34,249 - speechbrain.utils.epoch_loop - INFO - Going into epoch 98
+2024-04-14 18:54:34,428 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:54:34,429 - speechbrain.utils.train_logger - INFO - epoch: 98, lr: 2.78e-04 - train loss: 8.15e-01 - valid loss: 9.41e-01, valid f1: 6.34e-01, valid acc: 6.43e-01, valid cm: [[ 7  2  3  2]
+ [ 2  8  3  1]
+ [ 2  2  8  2]
+ [ 1  0  0 13]]
+2024-04-14 18:54:34,429 - speechbrain.utils.epoch_loop - INFO - Going into epoch 99
+2024-04-14 18:54:34,608 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:54:34,610 - speechbrain.utils.train_logger - INFO - epoch: 99, lr: 5.56e-05 - train loss: 7.95e-01 - valid loss: 9.36e-01, valid f1: 6.15e-01, valid acc: 6.25e-01, valid cm: [[ 7  2  3  2]
+ [ 2  8  3  1]
+ [ 2  2  7  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:34,610 - speechbrain.utils.epoch_loop - INFO - Going into epoch 100
+2024-04-14 18:54:34,794 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:54:34,796 - speechbrain.utils.train_logger - INFO - epoch: 100, lr: 1.67e-04 - train loss: 7.21e-01 - valid loss: 9.28e-01, valid f1: 6.21e-01, valid acc: 6.25e-01, valid cm: [[ 7  2  3  2]
+ [ 2  8  3  1]
+ [ 3  2  8  1]
+ [ 1  0  1 12]]
+2024-04-14 18:54:34,796 - speechbrain.utils.epoch_loop - INFO - Going into epoch 101
+2024-04-14 18:54:34,977 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:54:34,978 - speechbrain.utils.train_logger - INFO - epoch: 101, lr: 3.89e-04 - train loss: 6.98e-01 - valid loss: 9.19e-01, valid f1: 6.61e-01, valid acc: 6.61e-01, valid cm: [[10  1  2  1]
+ [ 2  8  3  1]
+ [ 3  2  8  1]
+ [ 2  0  1 11]]
+2024-04-14 18:54:34,979 - speechbrain.utils.epoch_loop - INFO - Going into epoch 102
+2024-04-14 18:54:35,157 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:54:35,158 - speechbrain.utils.train_logger - INFO - epoch: 102, lr: 6.11e-04 - train loss: 7.66e-01 - valid loss: 9.22e-01, valid f1: 6.44e-01, valid acc: 6.43e-01, valid cm: [[10  1  2  1]
+ [ 2  8  3  1]
+ [ 5  1  7  1]
+ [ 2  0  1 11]]
+2024-04-14 18:54:35,159 - speechbrain.utils.epoch_loop - INFO - Going into epoch 103
+2024-04-14 18:54:35,337 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:54:35,338 - speechbrain.utils.train_logger - INFO - epoch: 103, lr: 8.33e-04 - train loss: 7.26e-01 - valid loss: 9.21e-01, valid f1: 6.45e-01, valid acc: 6.43e-01, valid cm: [[10  1  2  1]
+ [ 2  8  4  0]
+ [ 4  2  7  1]
+ [ 2  0  1 11]]
+2024-04-14 18:54:35,339 - speechbrain.utils.epoch_loop - INFO - Going into epoch 104
+2024-04-14 18:54:35,515 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:54:35,517 - speechbrain.utils.train_logger - INFO - epoch: 104, lr: 9.44e-04 - train loss: 7.21e-01 - valid loss: 8.97e-01, valid f1: 6.82e-01, valid acc: 6.79e-01, valid cm: [[10  2  2  0]
+ [ 2  8  4  0]
+ [ 2  2  9  1]
+ [ 2  0  1 11]]
+2024-04-14 18:54:35,517 - speechbrain.utils.epoch_loop - INFO - Going into epoch 105
+2024-04-14 18:54:35,695 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:54:35,697 - speechbrain.utils.train_logger - INFO - epoch: 105, lr: 7.22e-04 - train loss: 7.59e-01 - valid loss: 8.85e-01, valid f1: 6.53e-01, valid acc: 6.61e-01, valid cm: [[ 9  1  2  2]
+ [ 2  8  3  1]
+ [ 3  1  7  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:35,697 - speechbrain.utils.epoch_loop - INFO - Going into epoch 106
+2024-04-14 18:54:35,877 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:54:35,879 - speechbrain.utils.train_logger - INFO - epoch: 106, lr: 5.00e-04 - train loss: 7.22e-01 - valid loss: 8.78e-01, valid f1: 6.72e-01, valid acc: 6.79e-01, valid cm: [[ 8  2  2  2]
+ [ 2  8  3  1]
+ [ 2  1  9  2]
+ [ 1  0  0 13]]
+2024-04-14 18:54:35,879 - speechbrain.utils.epoch_loop - INFO - Going into epoch 107
+2024-04-14 18:54:36,058 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:54:36,059 - speechbrain.utils.train_logger - INFO - epoch: 107, lr: 2.78e-04 - train loss: 8.21e-01 - valid loss: 8.77e-01, valid f1: 6.52e-01, valid acc: 6.61e-01, valid cm: [[ 9  2  2  1]
+ [ 2  8  3  1]
+ [ 2  2  7  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:36,060 - speechbrain.utils.epoch_loop - INFO - Going into epoch 108
+2024-04-14 18:54:36,238 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:54:36,240 - speechbrain.utils.train_logger - INFO - epoch: 108, lr: 5.56e-05 - train loss: 7.30e-01 - valid loss: 8.76e-01, valid f1: 6.32e-01, valid acc: 6.43e-01, valid cm: [[ 9  2  2  1]
+ [ 2  8  3  1]
+ [ 2  3  6  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:36,240 - speechbrain.utils.epoch_loop - INFO - Going into epoch 109
+2024-04-14 18:54:36,419 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:54:36,421 - speechbrain.utils.train_logger - INFO - epoch: 109, lr: 1.67e-04 - train loss: 7.21e-01 - valid loss: 8.79e-01, valid f1: 6.14e-01, valid acc: 6.25e-01, valid cm: [[ 8  2  2  2]
+ [ 2  8  3  1]
+ [ 3  1  6  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:36,421 - speechbrain.utils.epoch_loop - INFO - Going into epoch 110
+2024-04-14 18:54:36,599 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:54:36,601 - speechbrain.utils.train_logger - INFO - epoch: 110, lr: 3.89e-04 - train loss: 7.45e-01 - valid loss: 8.95e-01, valid f1: 6.12e-01, valid acc: 6.25e-01, valid cm: [[ 9  1  2  2]
+ [ 2  8  3  1]
+ [ 3  1  5  5]
+ [ 1  0  0 13]]
+2024-04-14 18:54:36,601 - speechbrain.utils.epoch_loop - INFO - Going into epoch 111
+2024-04-14 18:54:36,779 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:54:36,781 - speechbrain.utils.train_logger - INFO - epoch: 111, lr: 6.11e-04 - train loss: 6.70e-01 - valid loss: 8.99e-01, valid f1: 6.12e-01, valid acc: 6.25e-01, valid cm: [[ 9  1  2  2]
+ [ 2  8  3  1]
+ [ 3  1  5  5]
+ [ 1  0  0 13]]
+2024-04-14 18:54:36,781 - speechbrain.utils.epoch_loop - INFO - Going into epoch 112
+2024-04-14 18:54:36,961 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:54:36,963 - speechbrain.utils.train_logger - INFO - epoch: 112, lr: 8.33e-04 - train loss: 7.36e-01 - valid loss: 9.08e-01, valid f1: 6.00e-01, valid acc: 6.07e-01, valid cm: [[ 8  3  2  1]
+ [ 1  8  3  2]
+ [ 2  3  6  3]
+ [ 1  0  1 12]]
+2024-04-14 18:54:36,963 - speechbrain.utils.epoch_loop - INFO - Going into epoch 113
+2024-04-14 18:54:37,142 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:54:37,144 - speechbrain.utils.train_logger - INFO - epoch: 113, lr: 9.44e-04 - train loss: 7.32e-01 - valid loss: 8.96e-01, valid f1: 5.74e-01, valid acc: 5.89e-01, valid cm: [[ 7  2  2  3]
+ [ 1  8  3  2]
+ [ 2  2  5  5]
+ [ 1  0  0 13]]
+2024-04-14 18:54:37,144 - speechbrain.utils.epoch_loop - INFO - Going into epoch 114
+2024-04-14 18:54:37,321 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:54:37,323 - speechbrain.utils.train_logger - INFO - epoch: 114, lr: 7.22e-04 - train loss: 7.12e-01 - valid loss: 8.62e-01, valid f1: 6.67e-01, valid acc: 6.79e-01, valid cm: [[10  2  1  1]
+ [ 1  9  3  1]
+ [ 3  2  6  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:37,323 - speechbrain.utils.epoch_loop - INFO - Going into epoch 115
+2024-04-14 18:54:37,502 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:54:37,503 - speechbrain.utils.train_logger - INFO - epoch: 115, lr: 5.00e-04 - train loss: 6.85e-01 - valid loss: 8.36e-01, valid f1: 6.94e-01, valid acc: 6.96e-01, valid cm: [[10  2  1  1]
+ [ 1  9  3  1]
+ [ 3  2  8  1]
+ [ 2  0  0 12]]
+2024-04-14 18:54:37,503 - speechbrain.utils.epoch_loop - INFO - Going into epoch 116
+2024-04-14 18:54:37,681 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:54:37,683 - speechbrain.utils.train_logger - INFO - epoch: 116, lr: 2.78e-04 - train loss: 7.16e-01 - valid loss: 8.26e-01, valid f1: 6.90e-01, valid acc: 6.96e-01, valid cm: [[11  1  1  1]
+ [ 1  9  3  1]
+ [ 3  2  7  2]
+ [ 2  0  0 12]]
+2024-04-14 18:54:37,683 - speechbrain.utils.epoch_loop - INFO - Going into epoch 117
+2024-04-14 18:54:37,861 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:54:37,863 - speechbrain.utils.train_logger - INFO - epoch: 117, lr: 5.56e-05 - train loss: 7.23e-01 - valid loss: 8.28e-01, valid f1: 6.87e-01, valid acc: 6.96e-01, valid cm: [[11  1  1  1]
+ [ 2  8  3  1]
+ [ 3  2  7  2]
+ [ 1  0  0 13]]
+2024-04-14 18:54:37,863 - speechbrain.utils.epoch_loop - INFO - Going into epoch 118
+2024-04-14 18:54:38,044 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:54:38,046 - speechbrain.utils.train_logger - INFO - epoch: 118, lr: 1.67e-04 - train loss: 6.95e-01 - valid loss: 8.34e-01, valid f1: 6.87e-01, valid acc: 6.96e-01, valid cm: [[11  1  1  1]
+ [ 2  8  3  1]
+ [ 3  2  7  2]
+ [ 1  0  0 13]]
+2024-04-14 18:54:38,046 - speechbrain.utils.epoch_loop - INFO - Going into epoch 119
+2024-04-14 18:54:38,224 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:54:38,226 - speechbrain.utils.train_logger - INFO - epoch: 119, lr: 3.89e-04 - train loss: 6.68e-01 - valid loss: 8.55e-01, valid f1: 6.49e-01, valid acc: 6.61e-01, valid cm: [[10  1  2  1]
+ [ 2  8  3  1]
+ [ 2  2  6  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:38,226 - speechbrain.utils.epoch_loop - INFO - Going into epoch 120
+2024-04-14 18:54:38,404 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:54:38,405 - speechbrain.utils.train_logger - INFO - epoch: 120, lr: 6.11e-04 - train loss: 7.12e-01 - valid loss: 8.54e-01, valid f1: 6.91e-01, valid acc: 6.96e-01, valid cm: [[10  1  2  1]
+ [ 1  8  4  1]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:38,406 - speechbrain.utils.epoch_loop - INFO - Going into epoch 121
+2024-04-14 18:54:38,584 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:54:38,586 - speechbrain.utils.train_logger - INFO - epoch: 121, lr: 8.33e-04 - train loss: 6.50e-01 - valid loss: 8.33e-01, valid f1: 7.12e-01, valid acc: 7.14e-01, valid cm: [[10  1  2  1]
+ [ 1  8  5  0]
+ [ 1  2  9  2]
+ [ 1  0  0 13]]
+2024-04-14 18:54:38,586 - speechbrain.utils.epoch_loop - INFO - Going into epoch 122
+2024-04-14 18:54:38,765 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:54:38,767 - speechbrain.utils.train_logger - INFO - epoch: 122, lr: 9.44e-04 - train loss: 6.51e-01 - valid loss: 8.17e-01, valid f1: 6.65e-01, valid acc: 6.79e-01, valid cm: [[11  1  1  1]
+ [ 2  8  2  2]
+ [ 3  2  6  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:38,767 - speechbrain.utils.epoch_loop - INFO - Going into epoch 123
+2024-04-14 18:54:38,952 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:54:38,953 - speechbrain.utils.train_logger - INFO - epoch: 123, lr: 7.22e-04 - train loss: 6.47e-01 - valid loss: 8.18e-01, valid f1: 6.65e-01, valid acc: 6.79e-01, valid cm: [[11  1  1  1]
+ [ 2  8  2  2]
+ [ 3  2  6  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:38,954 - speechbrain.utils.epoch_loop - INFO - Going into epoch 124
+2024-04-14 18:54:39,133 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:54:39,135 - speechbrain.utils.train_logger - INFO - epoch: 124, lr: 5.00e-04 - train loss: 6.41e-01 - valid loss: 8.24e-01, valid f1: 6.89e-01, valid acc: 6.96e-01, valid cm: [[10  2  1  1]
+ [ 2  8  3  1]
+ [ 2  1  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:39,135 - speechbrain.utils.epoch_loop - INFO - Going into epoch 125
+2024-04-14 18:54:39,313 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:54:39,314 - speechbrain.utils.train_logger - INFO - epoch: 125, lr: 2.78e-04 - train loss: 6.39e-01 - valid loss: 8.23e-01, valid f1: 6.53e-01, valid acc: 6.61e-01, valid cm: [[ 9  2  2  1]
+ [ 2  8  3  1]
+ [ 3  1  7  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:39,315 - speechbrain.utils.epoch_loop - INFO - Going into epoch 126
+2024-04-14 18:54:39,492 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:54:39,494 - speechbrain.utils.train_logger - INFO - epoch: 126, lr: 5.56e-05 - train loss: 6.78e-01 - valid loss: 8.18e-01, valid f1: 6.53e-01, valid acc: 6.61e-01, valid cm: [[ 9  2  2  1]
+ [ 2  8  3  1]
+ [ 3  1  7  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:39,494 - speechbrain.utils.epoch_loop - INFO - Going into epoch 127
+2024-04-14 18:54:39,674 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:54:39,676 - speechbrain.utils.train_logger - INFO - epoch: 127, lr: 1.67e-04 - train loss: 6.35e-01 - valid loss: 8.08e-01, valid f1: 6.72e-01, valid acc: 6.79e-01, valid cm: [[ 9  2  2  1]
+ [ 2  8  3  1]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:39,676 - speechbrain.utils.epoch_loop - INFO - Going into epoch 128
+2024-04-14 18:54:39,855 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:54:39,856 - speechbrain.utils.train_logger - INFO - epoch: 128, lr: 3.89e-04 - train loss: 6.16e-01 - valid loss: 8.04e-01, valid f1: 6.49e-01, valid acc: 6.61e-01, valid cm: [[10  1  2  1]
+ [ 2  8  2  2]
+ [ 2  2  6  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:39,857 - speechbrain.utils.epoch_loop - INFO - Going into epoch 129
+2024-04-14 18:54:40,037 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:54:40,039 - speechbrain.utils.train_logger - INFO - epoch: 129, lr: 6.11e-04 - train loss: 6.18e-01 - valid loss: 8.16e-01, valid f1: 6.85e-01, valid acc: 6.96e-01, valid cm: [[12  1  0  1]
+ [ 1  9  3  1]
+ [ 4  2  6  2]
+ [ 2  0  0 12]]
+2024-04-14 18:54:40,039 - speechbrain.utils.epoch_loop - INFO - Going into epoch 130
+2024-04-14 18:54:40,218 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:54:40,220 - speechbrain.utils.train_logger - INFO - epoch: 130, lr: 8.33e-04 - train loss: 6.65e-01 - valid loss: 8.00e-01, valid f1: 6.73e-01, valid acc: 6.79e-01, valid cm: [[10  1  2  1]
+ [ 1  9  2  2]
+ [ 2  2  7  3]
+ [ 2  0  0 12]]
+2024-04-14 18:54:40,220 - speechbrain.utils.epoch_loop - INFO - Going into epoch 131
+2024-04-14 18:54:40,400 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:54:40,401 - speechbrain.utils.train_logger - INFO - epoch: 131, lr: 9.44e-04 - train loss: 6.25e-01 - valid loss: 7.99e-01, valid f1: 6.84e-01, valid acc: 6.96e-01, valid cm: [[11  1  1  1]
+ [ 1  9  2  2]
+ [ 2  3  6  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:40,401 - speechbrain.utils.epoch_loop - INFO - Going into epoch 132
+2024-04-14 18:54:40,580 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:54:40,582 - speechbrain.utils.train_logger - INFO - epoch: 132, lr: 7.22e-04 - train loss: 6.17e-01 - valid loss: 8.06e-01, valid f1: 6.61e-01, valid acc: 6.79e-01, valid cm: [[11  1  1  1]
+ [ 1  9  2  2]
+ [ 2  3  5  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:40,582 - speechbrain.utils.epoch_loop - INFO - Going into epoch 133
+2024-04-14 18:54:40,760 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:54:40,762 - speechbrain.utils.train_logger - INFO - epoch: 133, lr: 5.00e-04 - train loss: 6.57e-01 - valid loss: 7.91e-01, valid f1: 6.67e-01, valid acc: 6.79e-01, valid cm: [[10  1  2  1]
+ [ 1  9  2  2]
+ [ 2  3  6  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:40,762 - speechbrain.utils.epoch_loop - INFO - Going into epoch 134
+2024-04-14 18:54:40,941 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:54:40,942 - speechbrain.utils.train_logger - INFO - epoch: 134, lr: 2.78e-04 - train loss: 5.78e-01 - valid loss: 7.95e-01, valid f1: 6.89e-01, valid acc: 6.96e-01, valid cm: [[10  1  2  1]
+ [ 1  9  2  2]
+ [ 3  1  7  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:40,942 - speechbrain.utils.epoch_loop - INFO - Going into epoch 135
+2024-04-14 18:54:41,122 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:54:41,124 - speechbrain.utils.train_logger - INFO - epoch: 135, lr: 5.56e-05 - train loss: 6.33e-01 - valid loss: 7.97e-01, valid f1: 6.89e-01, valid acc: 6.96e-01, valid cm: [[10  1  2  1]
+ [ 1  9  2  2]
+ [ 3  1  7  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:41,124 - speechbrain.utils.epoch_loop - INFO - Going into epoch 136
+2024-04-14 18:54:41,304 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:54:41,305 - speechbrain.utils.train_logger - INFO - epoch: 136, lr: 1.67e-04 - train loss: 6.17e-01 - valid loss: 8.02e-01, valid f1: 6.70e-01, valid acc: 6.79e-01, valid cm: [[10  1  2  1]
+ [ 2  8  2  2]
+ [ 3  1  7  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:41,306 - speechbrain.utils.epoch_loop - INFO - Going into epoch 137
+2024-04-14 18:54:41,484 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:54:41,485 - speechbrain.utils.train_logger - INFO - epoch: 137, lr: 3.89e-04 - train loss: 5.64e-01 - valid loss: 8.12e-01, valid f1: 6.27e-01, valid acc: 6.43e-01, valid cm: [[10  1  2  1]
+ [ 2  8  2  2]
+ [ 3  2  5  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:41,485 - speechbrain.utils.epoch_loop - INFO - Going into epoch 138
+2024-04-14 18:54:41,664 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:54:41,666 - speechbrain.utils.train_logger - INFO - epoch: 138, lr: 6.11e-04 - train loss: 6.01e-01 - valid loss: 7.93e-01, valid f1: 6.70e-01, valid acc: 6.79e-01, valid cm: [[ 9  2  2  1]
+ [ 1  9  2  2]
+ [ 2  2  7  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:41,666 - speechbrain.utils.epoch_loop - INFO - Going into epoch 139
+2024-04-14 18:54:41,845 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:54:41,846 - speechbrain.utils.train_logger - INFO - epoch: 139, lr: 8.33e-04 - train loss: 5.60e-01 - valid loss: 7.67e-01, valid f1: 7.03e-01, valid acc: 7.14e-01, valid cm: [[12  1  0  1]
+ [ 2  8  2  2]
+ [ 3  1  7  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:41,846 - speechbrain.utils.epoch_loop - INFO - Going into epoch 140
+2024-04-14 18:54:42,025 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:54:42,027 - speechbrain.utils.train_logger - INFO - epoch: 140, lr: 9.44e-04 - train loss: 6.09e-01 - valid loss: 7.41e-01, valid f1: 6.94e-01, valid acc: 6.96e-01, valid cm: [[10  1  2  1]
+ [ 1  8  5  0]
+ [ 3  1  8  2]
+ [ 1  0  0 13]]
+2024-04-14 18:54:42,027 - speechbrain.utils.epoch_loop - INFO - Going into epoch 141
+2024-04-14 18:54:42,207 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:54:42,208 - speechbrain.utils.train_logger - INFO - epoch: 141, lr: 7.22e-04 - train loss: 5.70e-01 - valid loss: 7.59e-01, valid f1: 6.94e-01, valid acc: 6.96e-01, valid cm: [[ 9  2  2  1]
+ [ 1  8  5  0]
+ [ 1  2  9  2]
+ [ 1  0  0 13]]
+2024-04-14 18:54:42,208 - speechbrain.utils.epoch_loop - INFO - Going into epoch 142
+2024-04-14 18:54:42,386 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:54:42,387 - speechbrain.utils.train_logger - INFO - epoch: 142, lr: 5.00e-04 - train loss: 6.52e-01 - valid loss: 7.75e-01, valid f1: 6.58e-01, valid acc: 6.61e-01, valid cm: [[ 9  2  2  1]
+ [ 1  8  4  1]
+ [ 2  2  8  2]
+ [ 1  0  1 12]]
+2024-04-14 18:54:42,388 - speechbrain.utils.epoch_loop - INFO - Going into epoch 143
+2024-04-14 18:54:42,566 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:54:42,567 - speechbrain.utils.train_logger - INFO - epoch: 143, lr: 2.78e-04 - train loss: 5.53e-01 - valid loss: 7.71e-01, valid f1: 6.38e-01, valid acc: 6.43e-01, valid cm: [[10  1  2  1]
+ [ 1  8  4  1]
+ [ 4  1  6  3]
+ [ 1  0  1 12]]
+2024-04-14 18:54:42,567 - speechbrain.utils.epoch_loop - INFO - Going into epoch 144
+2024-04-14 18:54:42,746 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:54:42,747 - speechbrain.utils.train_logger - INFO - epoch: 144, lr: 5.56e-05 - train loss: 5.85e-01 - valid loss: 7.69e-01, valid f1: 6.52e-01, valid acc: 6.61e-01, valid cm: [[10  1  2  1]
+ [ 1  8  4  1]
+ [ 4  1  6  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:42,747 - speechbrain.utils.epoch_loop - INFO - Going into epoch 145
+2024-04-14 18:54:42,929 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:54:42,931 - speechbrain.utils.train_logger - INFO - epoch: 145, lr: 1.67e-04 - train loss: 6.05e-01 - valid loss: 7.63e-01, valid f1: 6.50e-01, valid acc: 6.61e-01, valid cm: [[10  1  2  1]
+ [ 1  8  3  2]
+ [ 4  1  6  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:42,932 - speechbrain.utils.epoch_loop - INFO - Going into epoch 146
+2024-04-14 18:54:43,114 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:54:43,115 - speechbrain.utils.train_logger - INFO - epoch: 146, lr: 3.89e-04 - train loss: 5.60e-01 - valid loss: 7.67e-01, valid f1: 6.66e-01, valid acc: 6.79e-01, valid cm: [[11  1  1  1]
+ [ 2  8  2  2]
+ [ 3  1  6  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:43,116 - speechbrain.utils.epoch_loop - INFO - Going into epoch 147
+2024-04-14 18:54:43,295 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:54:43,297 - speechbrain.utils.train_logger - INFO - epoch: 147, lr: 6.11e-04 - train loss: 5.29e-01 - valid loss: 7.56e-01, valid f1: 7.07e-01, valid acc: 7.14e-01, valid cm: [[11  1  1  1]
+ [ 1  8  3  2]
+ [ 2  1  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:43,297 - speechbrain.utils.epoch_loop - INFO - Going into epoch 148
+2024-04-14 18:54:43,475 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:54:43,476 - speechbrain.utils.train_logger - INFO - epoch: 148, lr: 8.33e-04 - train loss: 5.57e-01 - valid loss: 7.33e-01, valid f1: 6.94e-01, valid acc: 6.96e-01, valid cm: [[10  1  2  1]
+ [ 1  9  2  2]
+ [ 1  2  8  3]
+ [ 1  0  1 12]]
+2024-04-14 18:54:43,476 - speechbrain.utils.epoch_loop - INFO - Going into epoch 149
+2024-04-14 18:54:43,655 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:54:43,657 - speechbrain.utils.train_logger - INFO - epoch: 149, lr: 9.44e-04 - train loss: 5.40e-01 - valid loss: 7.09e-01, valid f1: 7.29e-01, valid acc: 7.32e-01, valid cm: [[10  1  2  1]
+ [ 1  9  2  2]
+ [ 1  1  9  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:43,657 - speechbrain.utils.epoch_loop - INFO - Going into epoch 150
+2024-04-14 18:54:43,836 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:54:43,837 - speechbrain.utils.train_logger - INFO - epoch: 150, lr: 7.22e-04 - train loss: 5.75e-01 - valid loss: 7.27e-01, valid f1: 6.67e-01, valid acc: 6.79e-01, valid cm: [[11  1  0  2]
+ [ 1  8  3  2]
+ [ 2  1  6  5]
+ [ 1  0  0 13]]
+2024-04-14 18:54:43,837 - speechbrain.utils.epoch_loop - INFO - Going into epoch 151
+2024-04-14 18:54:44,017 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:54:44,018 - speechbrain.utils.train_logger - INFO - epoch: 151, lr: 5.00e-04 - train loss: 5.34e-01 - valid loss: 7.55e-01, valid f1: 6.44e-01, valid acc: 6.61e-01, valid cm: [[11  1  0  2]
+ [ 1  8  3  2]
+ [ 3  1  5  5]
+ [ 1  0  0 13]]
+2024-04-14 18:54:44,018 - speechbrain.utils.epoch_loop - INFO - Going into epoch 152
+2024-04-14 18:54:44,198 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:54:44,200 - speechbrain.utils.train_logger - INFO - epoch: 152, lr: 2.78e-04 - train loss: 5.07e-01 - valid loss: 7.27e-01, valid f1: 6.66e-01, valid acc: 6.79e-01, valid cm: [[11  1  1  1]
+ [ 1  8  3  2]
+ [ 2  2  6  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:44,200 - speechbrain.utils.epoch_loop - INFO - Going into epoch 153
+2024-04-14 18:54:44,377 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:54:44,379 - speechbrain.utils.train_logger - INFO - epoch: 153, lr: 5.56e-05 - train loss: 5.43e-01 - valid loss: 7.19e-01, valid f1: 6.50e-01, valid acc: 6.61e-01, valid cm: [[10  1  2  1]
+ [ 1  8  3  2]
+ [ 2  2  6  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:44,379 - speechbrain.utils.epoch_loop - INFO - Going into epoch 154
+2024-04-14 18:54:44,556 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:54:44,557 - speechbrain.utils.train_logger - INFO - epoch: 154, lr: 1.67e-04 - train loss: 5.72e-01 - valid loss: 7.12e-01, valid f1: 6.71e-01, valid acc: 6.79e-01, valid cm: [[10  1  2  1]
+ [ 1  8  3  2]
+ [ 2  1  7  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:44,558 - speechbrain.utils.epoch_loop - INFO - Going into epoch 155
+2024-04-14 18:54:44,735 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:54:44,736 - speechbrain.utils.train_logger - INFO - epoch: 155, lr: 3.89e-04 - train loss: 5.09e-01 - valid loss: 6.97e-01, valid f1: 6.83e-01, valid acc: 6.96e-01, valid cm: [[12  1  0  1]
+ [ 1  8  3  2]
+ [ 2  1  6  5]
+ [ 1  0  0 13]]
+2024-04-14 18:54:44,736 - speechbrain.utils.epoch_loop - INFO - Going into epoch 156
+2024-04-14 18:54:44,916 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:54:44,918 - speechbrain.utils.train_logger - INFO - epoch: 156, lr: 6.11e-04 - train loss: 5.13e-01 - valid loss: 6.88e-01, valid f1: 7.84e-01, valid acc: 7.86e-01, valid cm: [[12  1  0  1]
+ [ 1 10  1  2]
+ [ 1  1  9  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:44,918 - speechbrain.utils.epoch_loop - INFO - Going into epoch 157
+2024-04-14 18:54:45,097 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:54:45,098 - speechbrain.utils.train_logger - INFO - epoch: 157, lr: 8.33e-04 - train loss: 4.79e-01 - valid loss: 6.98e-01, valid f1: 7.29e-01, valid acc: 7.32e-01, valid cm: [[11  2  0  1]
+ [ 1 10  2  1]
+ [ 3  1  8  2]
+ [ 1  0  1 12]]
+2024-04-14 18:54:45,099 - speechbrain.utils.epoch_loop - INFO - Going into epoch 158
+2024-04-14 18:54:45,276 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:54:45,278 - speechbrain.utils.train_logger - INFO - epoch: 158, lr: 9.44e-04 - train loss: 5.27e-01 - valid loss: 7.12e-01, valid f1: 7.62e-01, valid acc: 7.68e-01, valid cm: [[12  1  0  1]
+ [ 1 10  1  2]
+ [ 2  2  8  2]
+ [ 1  0  0 13]]
+2024-04-14 18:54:45,278 - speechbrain.utils.epoch_loop - INFO - Going into epoch 159
+2024-04-14 18:54:45,456 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:54:45,457 - speechbrain.utils.train_logger - INFO - epoch: 159, lr: 7.22e-04 - train loss: 5.86e-01 - valid loss: 7.12e-01, valid f1: 7.47e-01, valid acc: 7.50e-01, valid cm: [[12  1  0  1]
+ [ 1  9  3  1]
+ [ 2  1  9  2]
+ [ 1  0  1 12]]
+2024-04-14 18:54:45,457 - speechbrain.utils.epoch_loop - INFO - Going into epoch 160
+2024-04-14 18:54:45,634 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:54:45,636 - speechbrain.utils.train_logger - INFO - epoch: 160, lr: 5.00e-04 - train loss: 5.14e-01 - valid loss: 7.29e-01, valid f1: 7.27e-01, valid acc: 7.32e-01, valid cm: [[11  1  1  1]
+ [ 1  9  3  1]
+ [ 1  1  8  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:45,636 - speechbrain.utils.epoch_loop - INFO - Going into epoch 161
+2024-04-14 18:54:45,815 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:54:45,816 - speechbrain.utils.train_logger - INFO - epoch: 161, lr: 2.78e-04 - train loss: 4.98e-01 - valid loss: 7.26e-01, valid f1: 6.90e-01, valid acc: 6.96e-01, valid cm: [[10  1  2  1]
+ [ 1  9  3  1]
+ [ 2  1  7  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:45,817 - speechbrain.utils.epoch_loop - INFO - Going into epoch 162
+2024-04-14 18:54:45,995 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:54:45,997 - speechbrain.utils.train_logger - INFO - epoch: 162, lr: 5.56e-05 - train loss: 5.27e-01 - valid loss: 7.21e-01, valid f1: 6.90e-01, valid acc: 6.96e-01, valid cm: [[10  1  2  1]
+ [ 1  9  3  1]
+ [ 2  1  7  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:45,997 - speechbrain.utils.epoch_loop - INFO - Going into epoch 163
+2024-04-14 18:54:46,176 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:54:46,178 - speechbrain.utils.train_logger - INFO - epoch: 163, lr: 1.67e-04 - train loss: 5.14e-01 - valid loss: 7.17e-01, valid f1: 7.07e-01, valid acc: 7.14e-01, valid cm: [[10  1  2  1]
+ [ 1 10  2  1]
+ [ 2  2  7  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:46,178 - speechbrain.utils.epoch_loop - INFO - Going into epoch 164
+2024-04-14 18:54:46,364 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:54:46,366 - speechbrain.utils.train_logger - INFO - epoch: 164, lr: 3.89e-04 - train loss: 5.02e-01 - valid loss: 7.09e-01, valid f1: 6.85e-01, valid acc: 6.96e-01, valid cm: [[11  1  1  1]
+ [ 1  9  3  1]
+ [ 3  2  6  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:46,366 - speechbrain.utils.epoch_loop - INFO - Going into epoch 165
+2024-04-14 18:54:46,546 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:54:46,547 - speechbrain.utils.train_logger - INFO - epoch: 165, lr: 6.11e-04 - train loss: 4.41e-01 - valid loss: 6.89e-01, valid f1: 7.12e-01, valid acc: 7.14e-01, valid cm: [[11  1  1  1]
+ [ 1  8  4  1]
+ [ 1  1  9  3]
+ [ 1  0  1 12]]
+2024-04-14 18:54:46,548 - speechbrain.utils.epoch_loop - INFO - Going into epoch 166
+2024-04-14 18:54:46,726 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:54:46,728 - speechbrain.utils.train_logger - INFO - epoch: 166, lr: 8.33e-04 - train loss: 5.02e-01 - valid loss: 6.81e-01, valid f1: 7.17e-01, valid acc: 7.14e-01, valid cm: [[10  1  2  1]
+ [ 0  9  5  0]
+ [ 1  1  9  3]
+ [ 1  0  1 12]]
+2024-04-14 18:54:46,728 - speechbrain.utils.epoch_loop - INFO - Going into epoch 167
+2024-04-14 18:54:46,908 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:54:46,910 - speechbrain.utils.train_logger - INFO - epoch: 167, lr: 9.44e-04 - train loss: 5.30e-01 - valid loss: 6.68e-01, valid f1: 7.36e-01, valid acc: 7.32e-01, valid cm: [[10  0  3  1]
+ [ 0  9  4  1]
+ [ 2  1 10  1]
+ [ 1  0  1 12]]
+2024-04-14 18:54:46,910 - speechbrain.utils.epoch_loop - INFO - Going into epoch 168
+2024-04-14 18:54:47,090 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:54:47,092 - speechbrain.utils.train_logger - INFO - epoch: 168, lr: 7.22e-04 - train loss: 5.25e-01 - valid loss: 6.67e-01, valid f1: 7.47e-01, valid acc: 7.50e-01, valid cm: [[11  0  2  1]
+ [ 0 10  3  1]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:47,092 - speechbrain.utils.epoch_loop - INFO - Going into epoch 169
+2024-04-14 18:54:47,271 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:54:47,272 - speechbrain.utils.train_logger - INFO - epoch: 169, lr: 5.00e-04 - train loss: 4.94e-01 - valid loss: 6.67e-01, valid f1: 7.66e-01, valid acc: 7.68e-01, valid cm: [[11  0  2  1]
+ [ 0 11  2  1]
+ [ 1  1  8  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:47,273 - speechbrain.utils.epoch_loop - INFO - Going into epoch 170
+2024-04-14 18:54:47,452 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:54:47,454 - speechbrain.utils.train_logger - INFO - epoch: 170, lr: 2.78e-04 - train loss: 4.88e-01 - valid loss: 6.73e-01, valid f1: 7.65e-01, valid acc: 7.68e-01, valid cm: [[11  1  1  1]
+ [ 0 11  1  2]
+ [ 1  1  8  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:47,454 - speechbrain.utils.epoch_loop - INFO - Going into epoch 171
+2024-04-14 18:54:47,633 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:54:47,635 - speechbrain.utils.train_logger - INFO - epoch: 171, lr: 5.56e-05 - train loss: 4.96e-01 - valid loss: 6.65e-01, valid f1: 7.65e-01, valid acc: 7.68e-01, valid cm: [[11  1  1  1]
+ [ 0 11  1  2]
+ [ 1  1  8  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:47,635 - speechbrain.utils.epoch_loop - INFO - Going into epoch 172
+2024-04-14 18:54:47,814 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:54:47,815 - speechbrain.utils.train_logger - INFO - epoch: 172, lr: 1.67e-04 - train loss: 4.83e-01 - valid loss: 6.61e-01, valid f1: 7.65e-01, valid acc: 7.68e-01, valid cm: [[11  1  1  1]
+ [ 0 11  1  2]
+ [ 1  1  8  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:47,816 - speechbrain.utils.epoch_loop - INFO - Going into epoch 173
+2024-04-14 18:54:47,996 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:54:47,997 - speechbrain.utils.train_logger - INFO - epoch: 173, lr: 3.89e-04 - train loss: 5.29e-01 - valid loss: 6.50e-01, valid f1: 7.64e-01, valid acc: 7.68e-01, valid cm: [[11  1  1  1]
+ [ 0 11  2  1]
+ [ 1  1  8  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:47,998 - speechbrain.utils.epoch_loop - INFO - Going into epoch 174
+2024-04-14 18:54:48,177 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:54:48,179 - speechbrain.utils.train_logger - INFO - epoch: 174, lr: 6.11e-04 - train loss: 4.69e-01 - valid loss: 6.33e-01, valid f1: 7.66e-01, valid acc: 7.68e-01, valid cm: [[10  1  2  1]
+ [ 0 11  3  0]
+ [ 2  1  9  2]
+ [ 1  0  0 13]]
+2024-04-14 18:54:48,179 - speechbrain.utils.epoch_loop - INFO - Going into epoch 175
+2024-04-14 18:54:48,357 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:54:48,359 - speechbrain.utils.train_logger - INFO - epoch: 175, lr: 8.33e-04 - train loss: 4.95e-01 - valid loss: 6.40e-01, valid f1: 7.49e-01, valid acc: 7.50e-01, valid cm: [[10  1  2  1]
+ [ 0 10  4  0]
+ [ 2  1  9  2]
+ [ 1  0  0 13]]
+2024-04-14 18:54:48,359 - speechbrain.utils.epoch_loop - INFO - Going into epoch 176
+2024-04-14 18:54:48,538 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:54:48,539 - speechbrain.utils.train_logger - INFO - epoch: 176, lr: 9.44e-04 - train loss: 4.70e-01 - valid loss: 6.79e-01, valid f1: 7.45e-01, valid acc: 7.50e-01, valid cm: [[12  1  0  1]
+ [ 1  9  2  2]
+ [ 1  1  8  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:48,540 - speechbrain.utils.epoch_loop - INFO - Going into epoch 177
+2024-04-14 18:54:48,718 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:54:48,720 - speechbrain.utils.train_logger - INFO - epoch: 177, lr: 7.22e-04 - train loss: 4.92e-01 - valid loss: 6.37e-01, valid f1: 7.67e-01, valid acc: 7.68e-01, valid cm: [[11  0  2  1]
+ [ 0 10  3  1]
+ [ 2  1  9  2]
+ [ 1  0  0 13]]
+2024-04-14 18:54:48,720 - speechbrain.utils.epoch_loop - INFO - Going into epoch 178
+2024-04-14 18:54:48,898 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:54:48,900 - speechbrain.utils.train_logger - INFO - epoch: 178, lr: 5.00e-04 - train loss: 5.29e-01 - valid loss: 6.33e-01, valid f1: 7.53e-01, valid acc: 7.50e-01, valid cm: [[11  0  2  1]
+ [ 0 10  4  0]
+ [ 2  1  9  2]
+ [ 1  0  1 12]]
+2024-04-14 18:54:48,900 - speechbrain.utils.epoch_loop - INFO - Going into epoch 179
+2024-04-14 18:54:49,078 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:54:49,080 - speechbrain.utils.train_logger - INFO - epoch: 179, lr: 2.78e-04 - train loss: 4.91e-01 - valid loss: 6.31e-01, valid f1: 7.51e-01, valid acc: 7.50e-01, valid cm: [[11  0  2  1]
+ [ 0  9  5  0]
+ [ 2  1  9  2]
+ [ 1  0  0 13]]
+2024-04-14 18:54:49,080 - speechbrain.utils.epoch_loop - INFO - Going into epoch 180
+2024-04-14 18:54:49,258 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:54:49,259 - speechbrain.utils.train_logger - INFO - epoch: 180, lr: 5.56e-05 - train loss: 4.07e-01 - valid loss: 6.31e-01, valid f1: 7.51e-01, valid acc: 7.50e-01, valid cm: [[11  0  2  1]
+ [ 0  9  5  0]
+ [ 2  1  9  2]
+ [ 1  0  0 13]]
+2024-04-14 18:54:49,260 - speechbrain.utils.epoch_loop - INFO - Going into epoch 181
+2024-04-14 18:54:49,439 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:54:49,440 - speechbrain.utils.train_logger - INFO - epoch: 181, lr: 1.67e-04 - train loss: 4.62e-01 - valid loss: 6.40e-01, valid f1: 7.51e-01, valid acc: 7.50e-01, valid cm: [[11  0  2  1]
+ [ 0  9  5  0]
+ [ 1  1  9  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:49,441 - speechbrain.utils.epoch_loop - INFO - Going into epoch 182
+2024-04-14 18:54:49,620 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:54:49,621 - speechbrain.utils.train_logger - INFO - epoch: 182, lr: 3.89e-04 - train loss: 4.38e-01 - valid loss: 6.55e-01, valid f1: 7.47e-01, valid acc: 7.50e-01, valid cm: [[11  1  1  1]
+ [ 0 10  3  1]
+ [ 1  1  8  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:49,621 - speechbrain.utils.epoch_loop - INFO - Going into epoch 183
+2024-04-14 18:54:49,800 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:54:49,801 - speechbrain.utils.train_logger - INFO - epoch: 183, lr: 6.11e-04 - train loss: 4.41e-01 - valid loss: 6.71e-01, valid f1: 7.82e-01, valid acc: 7.86e-01, valid cm: [[12  1  0  1]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:49,802 - speechbrain.utils.epoch_loop - INFO - Going into epoch 184
+2024-04-14 18:54:49,981 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:54:49,982 - speechbrain.utils.train_logger - INFO - epoch: 184, lr: 8.33e-04 - train loss: 4.54e-01 - valid loss: 6.44e-01, valid f1: 7.45e-01, valid acc: 7.50e-01, valid cm: [[ 9  2  2  1]
+ [ 0 11  1  2]
+ [ 2  2  9  1]
+ [ 1  0  0 13]]
+2024-04-14 18:54:49,982 - speechbrain.utils.epoch_loop - INFO - Going into epoch 185
+2024-04-14 18:54:50,163 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:54:50,164 - speechbrain.utils.train_logger - INFO - epoch: 185, lr: 9.44e-04 - train loss: 4.95e-01 - valid loss: 6.64e-01, valid f1: 7.09e-01, valid acc: 7.14e-01, valid cm: [[11  0  2  1]
+ [ 1  9  3  1]
+ [ 3  1  7  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:50,165 - speechbrain.utils.epoch_loop - INFO - Going into epoch 186
+2024-04-14 18:54:50,342 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:54:50,344 - speechbrain.utils.train_logger - INFO - epoch: 186, lr: 7.22e-04 - train loss: 5.14e-01 - valid loss: 6.81e-01, valid f1: 6.94e-01, valid acc: 6.96e-01, valid cm: [[11  0  2  1]
+ [ 1  9  3  1]
+ [ 3  1  7  3]
+ [ 1  0  1 12]]
+2024-04-14 18:54:50,344 - speechbrain.utils.epoch_loop - INFO - Going into epoch 187
+2024-04-14 18:54:50,522 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:54:50,524 - speechbrain.utils.train_logger - INFO - epoch: 187, lr: 5.00e-04 - train loss: 4.81e-01 - valid loss: 6.72e-01, valid f1: 7.30e-01, valid acc: 7.32e-01, valid cm: [[11  0  2  1]
+ [ 1  9  4  0]
+ [ 1  1  8  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:50,524 - speechbrain.utils.epoch_loop - INFO - Going into epoch 188
+2024-04-14 18:54:50,703 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:54:50,705 - speechbrain.utils.train_logger - INFO - epoch: 188, lr: 2.78e-04 - train loss: 5.03e-01 - valid loss: 6.78e-01, valid f1: 7.45e-01, valid acc: 7.50e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 2  1  7  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:50,705 - speechbrain.utils.epoch_loop - INFO - Going into epoch 189
+2024-04-14 18:54:50,884 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:54:50,885 - speechbrain.utils.train_logger - INFO - epoch: 189, lr: 5.56e-05 - train loss: 4.72e-01 - valid loss: 6.68e-01, valid f1: 7.45e-01, valid acc: 7.50e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 2  1  7  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:50,886 - speechbrain.utils.epoch_loop - INFO - Going into epoch 190
+2024-04-14 18:54:51,068 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:54:51,070 - speechbrain.utils.train_logger - INFO - epoch: 190, lr: 1.67e-04 - train loss: 4.48e-01 - valid loss: 6.50e-01, valid f1: 7.45e-01, valid acc: 7.50e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 2  1  7  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:51,070 - speechbrain.utils.epoch_loop - INFO - Going into epoch 191
+2024-04-14 18:54:51,249 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:54:51,250 - speechbrain.utils.train_logger - INFO - epoch: 191, lr: 3.89e-04 - train loss: 4.85e-01 - valid loss: 6.41e-01, valid f1: 7.64e-01, valid acc: 7.68e-01, valid cm: [[11  1  1  1]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:51,250 - speechbrain.utils.epoch_loop - INFO - Going into epoch 192
+2024-04-14 18:54:51,429 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:54:51,430 - speechbrain.utils.train_logger - INFO - epoch: 192, lr: 6.11e-04 - train loss: 4.14e-01 - valid loss: 6.38e-01, valid f1: 7.64e-01, valid acc: 7.68e-01, valid cm: [[11  1  1  1]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:51,431 - speechbrain.utils.epoch_loop - INFO - Going into epoch 193
+2024-04-14 18:54:51,610 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:54:51,612 - speechbrain.utils.train_logger - INFO - epoch: 193, lr: 8.33e-04 - train loss: 4.54e-01 - valid loss: 6.37e-01, valid f1: 7.61e-01, valid acc: 7.68e-01, valid cm: [[12  1  0  1]
+ [ 0 11  1  2]
+ [ 2  1  7  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:51,612 - speechbrain.utils.epoch_loop - INFO - Going into epoch 194
+2024-04-14 18:54:51,791 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:54:51,793 - speechbrain.utils.train_logger - INFO - epoch: 194, lr: 9.44e-04 - train loss: 4.15e-01 - valid loss: 6.24e-01, valid f1: 7.80e-01, valid acc: 7.86e-01, valid cm: [[12  1  0  1]
+ [ 0 11  2  1]
+ [ 2  2  8  2]
+ [ 1  0  0 13]]
+2024-04-14 18:54:51,793 - speechbrain.utils.epoch_loop - INFO - Going into epoch 195
+2024-04-14 18:54:51,972 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:54:51,974 - speechbrain.utils.train_logger - INFO - epoch: 195, lr: 7.22e-04 - train loss: 4.56e-01 - valid loss: 6.12e-01, valid f1: 7.65e-01, valid acc: 7.68e-01, valid cm: [[10  1  2  1]
+ [ 0 11  2  1]
+ [ 2  1  9  2]
+ [ 1  0  0 13]]
+2024-04-14 18:54:51,974 - speechbrain.utils.epoch_loop - INFO - Going into epoch 196
+2024-04-14 18:54:52,152 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:54:52,154 - speechbrain.utils.train_logger - INFO - epoch: 196, lr: 5.00e-04 - train loss: 4.57e-01 - valid loss: 6.21e-01, valid f1: 7.66e-01, valid acc: 7.68e-01, valid cm: [[10  1  2  1]
+ [ 0 11  1  2]
+ [ 1  1  9  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:52,154 - speechbrain.utils.epoch_loop - INFO - Going into epoch 197
+2024-04-14 18:54:52,331 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:54:52,332 - speechbrain.utils.train_logger - INFO - epoch: 197, lr: 2.78e-04 - train loss: 5.03e-01 - valid loss: 6.32e-01, valid f1: 7.64e-01, valid acc: 7.68e-01, valid cm: [[11  1  1  1]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:52,332 - speechbrain.utils.epoch_loop - INFO - Going into epoch 198
+2024-04-14 18:54:52,512 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:54:52,513 - speechbrain.utils.train_logger - INFO - epoch: 198, lr: 5.56e-05 - train loss: 4.23e-01 - valid loss: 6.35e-01, valid f1: 7.64e-01, valid acc: 7.68e-01, valid cm: [[11  1  1  1]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:52,514 - speechbrain.utils.epoch_loop - INFO - Going into epoch 199
+2024-04-14 18:54:52,693 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:54:52,694 - speechbrain.utils.train_logger - INFO - epoch: 199, lr: 1.67e-04 - train loss: 4.17e-01 - valid loss: 6.40e-01, valid f1: 7.43e-01, valid acc: 7.50e-01, valid cm: [[11  1  1  1]
+ [ 0 11  1  2]
+ [ 2  1  7  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:52,694 - speechbrain.utils.epoch_loop - INFO - Going into epoch 200
+2024-04-14 18:54:52,873 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:54:52,875 - speechbrain.utils.train_logger - INFO - epoch: 200, lr: 3.89e-04 - train loss: 4.31e-01 - valid loss: 6.54e-01, valid f1: 7.83e-01, valid acc: 7.86e-01, valid cm: [[12  1  0  1]
+ [ 0 11  1  2]
+ [ 1  1  8  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:52,875 - speechbrain.utils.epoch_loop - INFO - Going into epoch 201
+2024-04-14 18:54:53,055 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:54:53,056 - speechbrain.utils.train_logger - INFO - epoch: 201, lr: 6.11e-04 - train loss: 4.16e-01 - valid loss: 6.43e-01, valid f1: 7.62e-01, valid acc: 7.68e-01, valid cm: [[10  1  2  1]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 0  0  0 14]]
+2024-04-14 18:54:53,056 - speechbrain.utils.epoch_loop - INFO - Going into epoch 202
+2024-04-14 18:54:53,238 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:54:53,240 - speechbrain.utils.train_logger - INFO - epoch: 202, lr: 8.33e-04 - train loss: 4.62e-01 - valid loss: 6.09e-01, valid f1: 7.64e-01, valid acc: 7.68e-01, valid cm: [[11  1  1  1]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:53,240 - speechbrain.utils.epoch_loop - INFO - Going into epoch 203
+2024-04-14 18:54:53,422 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:54:53,423 - speechbrain.utils.train_logger - INFO - epoch: 203, lr: 9.44e-04 - train loss: 4.84e-01 - valid loss: 6.03e-01, valid f1: 7.65e-01, valid acc: 7.68e-01, valid cm: [[11  0  2  1]
+ [ 0 11  2  1]
+ [ 2  1  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:53,423 - speechbrain.utils.epoch_loop - INFO - Going into epoch 204
+2024-04-14 18:54:53,602 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:54:53,603 - speechbrain.utils.train_logger - INFO - epoch: 204, lr: 7.22e-04 - train loss: 4.16e-01 - valid loss: 6.08e-01, valid f1: 7.84e-01, valid acc: 7.86e-01, valid cm: [[11  0  2  1]
+ [ 0 11  2  1]
+ [ 2  1  9  2]
+ [ 0  1  0 13]]
+2024-04-14 18:54:53,603 - speechbrain.utils.epoch_loop - INFO - Going into epoch 205
+2024-04-14 18:54:53,782 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:54:53,783 - speechbrain.utils.train_logger - INFO - epoch: 205, lr: 5.00e-04 - train loss: 4.61e-01 - valid loss: 6.24e-01, valid f1: 7.49e-01, valid acc: 7.50e-01, valid cm: [[10  0  3  1]
+ [ 0 10  3  1]
+ [ 2  1  9  2]
+ [ 0  1  0 13]]
+2024-04-14 18:54:53,784 - speechbrain.utils.epoch_loop - INFO - Going into epoch 206
+2024-04-14 18:54:53,964 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:54:53,965 - speechbrain.utils.train_logger - INFO - epoch: 206, lr: 2.78e-04 - train loss: 4.54e-01 - valid loss: 6.24e-01, valid f1: 7.28e-01, valid acc: 7.32e-01, valid cm: [[10  0  3  1]
+ [ 0 11  2  1]
+ [ 2  1  7  4]
+ [ 0  1  0 13]]
+2024-04-14 18:54:53,966 - speechbrain.utils.epoch_loop - INFO - Going into epoch 207
+2024-04-14 18:54:54,143 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:54:54,145 - speechbrain.utils.train_logger - INFO - epoch: 207, lr: 5.56e-05 - train loss: 3.93e-01 - valid loss: 6.23e-01, valid f1: 7.49e-01, valid acc: 7.50e-01, valid cm: [[10  0  3  1]
+ [ 0 11  2  1]
+ [ 1  1  8  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:54,145 - speechbrain.utils.epoch_loop - INFO - Going into epoch 208
+2024-04-14 18:54:54,325 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:54:54,326 - speechbrain.utils.train_logger - INFO - epoch: 208, lr: 1.67e-04 - train loss: 3.94e-01 - valid loss: 6.19e-01, valid f1: 7.66e-01, valid acc: 7.68e-01, valid cm: [[11  0  2  1]
+ [ 0 11  2  1]
+ [ 1  1  8  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:54,326 - speechbrain.utils.epoch_loop - INFO - Going into epoch 209
+2024-04-14 18:54:54,504 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:54:54,506 - speechbrain.utils.train_logger - INFO - epoch: 209, lr: 3.89e-04 - train loss: 3.80e-01 - valid loss: 6.24e-01, valid f1: 7.46e-01, valid acc: 7.50e-01, valid cm: [[11  0  2  1]
+ [ 0 11  2  1]
+ [ 1  1  7  5]
+ [ 1  0  0 13]]
+2024-04-14 18:54:54,506 - speechbrain.utils.epoch_loop - INFO - Going into epoch 210
+2024-04-14 18:54:54,685 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:54:54,686 - speechbrain.utils.train_logger - INFO - epoch: 210, lr: 6.11e-04 - train loss: 4.02e-01 - valid loss: 6.40e-01, valid f1: 7.84e-01, valid acc: 7.86e-01, valid cm: [[11  1  1  1]
+ [ 0 11  1  2]
+ [ 1  1  9  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:54,686 - speechbrain.utils.epoch_loop - INFO - Going into epoch 211
+2024-04-14 18:54:54,864 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:54:54,866 - speechbrain.utils.train_logger - INFO - epoch: 211, lr: 8.33e-04 - train loss: 4.05e-01 - valid loss: 6.63e-01, valid f1: 7.62e-01, valid acc: 7.68e-01, valid cm: [[10  1  2  1]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 0  0  0 14]]
+2024-04-14 18:54:54,866 - speechbrain.utils.epoch_loop - INFO - Going into epoch 212
+2024-04-14 18:54:55,045 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:54:55,046 - speechbrain.utils.train_logger - INFO - epoch: 212, lr: 9.44e-04 - train loss: 4.44e-01 - valid loss: 6.41e-01, valid f1: 7.65e-01, valid acc: 7.68e-01, valid cm: [[11  1  1  1]
+ [ 0 11  1  2]
+ [ 1  1  8  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:55,046 - speechbrain.utils.epoch_loop - INFO - Going into epoch 213
+2024-04-14 18:54:55,225 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:54:55,226 - speechbrain.utils.train_logger - INFO - epoch: 213, lr: 7.22e-04 - train loss: 4.08e-01 - valid loss: 6.17e-01, valid f1: 7.65e-01, valid acc: 7.68e-01, valid cm: [[12  0  1  1]
+ [ 1 10  1  2]
+ [ 1  1  8  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:55,226 - speechbrain.utils.epoch_loop - INFO - Going into epoch 214
+2024-04-14 18:54:55,404 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:54:55,405 - speechbrain.utils.train_logger - INFO - epoch: 214, lr: 5.00e-04 - train loss: 4.01e-01 - valid loss: 6.23e-01, valid f1: 7.32e-01, valid acc: 7.32e-01, valid cm: [[10  0  3  1]
+ [ 0 10  3  1]
+ [ 1  1  8  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:55,406 - speechbrain.utils.epoch_loop - INFO - Going into epoch 215
+2024-04-14 18:54:55,583 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:54:55,585 - speechbrain.utils.train_logger - INFO - epoch: 215, lr: 2.78e-04 - train loss: 3.75e-01 - valid loss: 6.15e-01, valid f1: 7.32e-01, valid acc: 7.32e-01, valid cm: [[10  0  3  1]
+ [ 0 10  3  1]
+ [ 1  1  8  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:55,585 - speechbrain.utils.epoch_loop - INFO - Going into epoch 216
+2024-04-14 18:54:55,767 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:54:55,769 - speechbrain.utils.train_logger - INFO - epoch: 216, lr: 5.56e-05 - train loss: 3.15e-01 - valid loss: 6.13e-01, valid f1: 7.49e-01, valid acc: 7.50e-01, valid cm: [[11  0  2  1]
+ [ 0 10  3  1]
+ [ 1  1  8  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:55,769 - speechbrain.utils.epoch_loop - INFO - Going into epoch 217
+2024-04-14 18:54:55,949 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:54:55,951 - speechbrain.utils.train_logger - INFO - epoch: 217, lr: 1.67e-04 - train loss: 3.72e-01 - valid loss: 6.09e-01, valid f1: 7.47e-01, valid acc: 7.50e-01, valid cm: [[11  0  2  1]
+ [ 0 10  2  2]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:55,951 - speechbrain.utils.epoch_loop - INFO - Going into epoch 218
+2024-04-14 18:54:56,130 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:54:56,131 - speechbrain.utils.train_logger - INFO - epoch: 218, lr: 3.89e-04 - train loss: 3.74e-01 - valid loss: 6.22e-01, valid f1: 7.82e-01, valid acc: 7.86e-01, valid cm: [[12  1  0  1]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:56,132 - speechbrain.utils.epoch_loop - INFO - Going into epoch 219
+2024-04-14 18:54:56,308 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:54:56,310 - speechbrain.utils.train_logger - INFO - epoch: 219, lr: 6.11e-04 - train loss: 4.10e-01 - valid loss: 6.22e-01, valid f1: 7.82e-01, valid acc: 7.86e-01, valid cm: [[12  1  0  1]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:56,310 - speechbrain.utils.epoch_loop - INFO - Going into epoch 220
+2024-04-14 18:54:56,487 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:54:56,489 - speechbrain.utils.train_logger - INFO - epoch: 220, lr: 8.33e-04 - train loss: 4.73e-01 - valid loss: 6.04e-01, valid f1: 7.41e-01, valid acc: 7.50e-01, valid cm: [[12  1  0  1]
+ [ 0 10  3  1]
+ [ 3  2  7  2]
+ [ 1  0  0 13]]
+2024-04-14 18:54:56,489 - speechbrain.utils.epoch_loop - INFO - Going into epoch 221
+2024-04-14 18:54:56,667 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:54:56,669 - speechbrain.utils.train_logger - INFO - epoch: 221, lr: 9.44e-04 - train loss: 4.57e-01 - valid loss: 5.73e-01, valid f1: 7.98e-01, valid acc: 8.04e-01, valid cm: [[13  0  0  1]
+ [ 0 11  2  1]
+ [ 3  1  8  2]
+ [ 1  0  0 13]]
+2024-04-14 18:54:56,669 - speechbrain.utils.epoch_loop - INFO - Going into epoch 222
+2024-04-14 18:54:56,847 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:54:56,849 - speechbrain.utils.train_logger - INFO - epoch: 222, lr: 7.22e-04 - train loss: 4.19e-01 - valid loss: 5.62e-01, valid f1: 8.18e-01, valid acc: 8.21e-01, valid cm: [[12  0  1  1]
+ [ 0 11  2  1]
+ [ 2  1  9  2]
+ [ 0  0  0 14]]
+2024-04-14 18:54:56,849 - speechbrain.utils.epoch_loop - INFO - Going into epoch 223
+2024-04-14 18:54:57,032 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:54:57,034 - speechbrain.utils.train_logger - INFO - epoch: 223, lr: 5.00e-04 - train loss: 3.89e-01 - valid loss: 5.84e-01, valid f1: 7.26e-01, valid acc: 7.32e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 3  2  7  2]
+ [ 2  0  0 12]]
+2024-04-14 18:54:57,034 - speechbrain.utils.epoch_loop - INFO - Going into epoch 224
+2024-04-14 18:54:57,213 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:54:57,214 - speechbrain.utils.train_logger - INFO - epoch: 224, lr: 2.78e-04 - train loss: 3.90e-01 - valid loss: 5.90e-01, valid f1: 7.25e-01, valid acc: 7.32e-01, valid cm: [[12  0  1  1]
+ [ 0 10  2  2]
+ [ 3  2  7  2]
+ [ 2  0  0 12]]
+2024-04-14 18:54:57,214 - speechbrain.utils.epoch_loop - INFO - Going into epoch 225
+2024-04-14 18:54:57,394 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:54:57,396 - speechbrain.utils.train_logger - INFO - epoch: 225, lr: 5.56e-05 - train loss: 3.74e-01 - valid loss: 5.88e-01, valid f1: 7.47e-01, valid acc: 7.50e-01, valid cm: [[12  0  1  1]
+ [ 0 10  2  2]
+ [ 3  1  8  2]
+ [ 2  0  0 12]]
+2024-04-14 18:54:57,396 - speechbrain.utils.epoch_loop - INFO - Going into epoch 226
+2024-04-14 18:54:57,574 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:54:57,576 - speechbrain.utils.train_logger - INFO - epoch: 226, lr: 1.67e-04 - train loss: 4.45e-01 - valid loss: 5.81e-01, valid f1: 7.41e-01, valid acc: 7.50e-01, valid cm: [[12  0  1  1]
+ [ 0 10  2  2]
+ [ 3  2  7  2]
+ [ 1  0  0 13]]
+2024-04-14 18:54:57,576 - speechbrain.utils.epoch_loop - INFO - Going into epoch 227
+2024-04-14 18:54:57,754 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:54:57,755 - speechbrain.utils.train_logger - INFO - epoch: 227, lr: 3.89e-04 - train loss: 3.66e-01 - valid loss: 5.96e-01, valid f1: 7.60e-01, valid acc: 7.68e-01, valid cm: [[11  1  1  1]
+ [ 0 11  1  2]
+ [ 1  2  7  4]
+ [ 0  0  0 14]]
+2024-04-14 18:54:57,756 - speechbrain.utils.epoch_loop - INFO - Going into epoch 228
+2024-04-14 18:54:57,937 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:54:57,938 - speechbrain.utils.train_logger - INFO - epoch: 228, lr: 6.11e-04 - train loss: 3.80e-01 - valid loss: 6.23e-01, valid f1: 7.83e-01, valid acc: 7.86e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 1  1  8  4]
+ [ 0  0  0 14]]
+2024-04-14 18:54:57,938 - speechbrain.utils.epoch_loop - INFO - Going into epoch 229
+2024-04-14 18:54:58,117 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:54:58,118 - speechbrain.utils.train_logger - INFO - epoch: 229, lr: 8.33e-04 - train loss: 3.72e-01 - valid loss: 6.17e-01, valid f1: 7.47e-01, valid acc: 7.50e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 1  1  7  5]
+ [ 1  0  0 13]]
+2024-04-14 18:54:58,119 - speechbrain.utils.epoch_loop - INFO - Going into epoch 230
+2024-04-14 18:54:58,299 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:54:58,301 - speechbrain.utils.train_logger - INFO - epoch: 230, lr: 9.44e-04 - train loss: 3.75e-01 - valid loss: 6.07e-01, valid f1: 7.45e-01, valid acc: 7.50e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 2  1  7  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:58,301 - speechbrain.utils.epoch_loop - INFO - Going into epoch 231
+2024-04-14 18:54:58,481 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:54:58,482 - speechbrain.utils.train_logger - INFO - epoch: 231, lr: 7.22e-04 - train loss: 4.37e-01 - valid loss: 5.97e-01, valid f1: 8.03e-01, valid acc: 8.04e-01, valid cm: [[12  0  1  1]
+ [ 0 11  1  2]
+ [ 1  1  9  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:58,482 - speechbrain.utils.epoch_loop - INFO - Going into epoch 232
+2024-04-14 18:54:58,666 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:54:58,667 - speechbrain.utils.train_logger - INFO - epoch: 232, lr: 5.00e-04 - train loss: 3.91e-01 - valid loss: 6.34e-01, valid f1: 7.80e-01, valid acc: 7.86e-01, valid cm: [[12  0  1  1]
+ [ 0 11  1  2]
+ [ 1  1  7  5]
+ [ 0  0  0 14]]
+2024-04-14 18:54:58,667 - speechbrain.utils.epoch_loop - INFO - Going into epoch 233
+2024-04-14 18:54:58,844 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:54:58,846 - speechbrain.utils.train_logger - INFO - epoch: 233, lr: 2.78e-04 - train loss: 4.12e-01 - valid loss: 6.29e-01, valid f1: 7.80e-01, valid acc: 7.86e-01, valid cm: [[12  0  1  1]
+ [ 0 11  1  2]
+ [ 1  1  7  5]
+ [ 0  0  0 14]]
+2024-04-14 18:54:58,846 - speechbrain.utils.epoch_loop - INFO - Going into epoch 234
+2024-04-14 18:54:59,024 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:54:59,025 - speechbrain.utils.train_logger - INFO - epoch: 234, lr: 5.56e-05 - train loss: 3.88e-01 - valid loss: 6.16e-01, valid f1: 7.80e-01, valid acc: 7.86e-01, valid cm: [[12  0  1  1]
+ [ 0 11  1  2]
+ [ 1  1  7  5]
+ [ 0  0  0 14]]
+2024-04-14 18:54:59,026 - speechbrain.utils.epoch_loop - INFO - Going into epoch 235
+2024-04-14 18:54:59,204 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:54:59,205 - speechbrain.utils.train_logger - INFO - epoch: 235, lr: 1.67e-04 - train loss: 3.48e-01 - valid loss: 6.04e-01, valid f1: 7.84e-01, valid acc: 7.86e-01, valid cm: [[12  0  1  1]
+ [ 0 11  1  2]
+ [ 1  1  8  4]
+ [ 1  0  0 13]]
+2024-04-14 18:54:59,205 - speechbrain.utils.epoch_loop - INFO - Going into epoch 236
+2024-04-14 18:54:59,385 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:54:59,386 - speechbrain.utils.train_logger - INFO - epoch: 236, lr: 3.89e-04 - train loss: 3.06e-01 - valid loss: 6.13e-01, valid f1: 7.64e-01, valid acc: 7.68e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:59,386 - speechbrain.utils.epoch_loop - INFO - Going into epoch 237
+2024-04-14 18:54:59,565 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:54:59,566 - speechbrain.utils.train_logger - INFO - epoch: 237, lr: 6.11e-04 - train loss: 3.47e-01 - valid loss: 6.04e-01, valid f1: 7.64e-01, valid acc: 7.68e-01, valid cm: [[11  0  2  1]
+ [ 0 11  2  1]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:54:59,567 - speechbrain.utils.epoch_loop - INFO - Going into epoch 238
+2024-04-14 18:54:59,745 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:54:59,747 - speechbrain.utils.train_logger - INFO - epoch: 238, lr: 8.33e-04 - train loss: 3.63e-01 - valid loss: 6.01e-01, valid f1: 7.70e-01, valid acc: 7.68e-01, valid cm: [[11  0  2  1]
+ [ 0 10  3  1]
+ [ 2  1 10  1]
+ [ 1  0  1 12]]
+2024-04-14 18:54:59,747 - speechbrain.utils.epoch_loop - INFO - Going into epoch 239
+2024-04-14 18:54:59,926 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:54:59,927 - speechbrain.utils.train_logger - INFO - epoch: 239, lr: 9.44e-04 - train loss: 3.88e-01 - valid loss: 6.60e-01, valid f1: 7.37e-01, valid acc: 7.32e-01, valid cm: [[10  0  3  1]
+ [ 0  9  4  1]
+ [ 3  1 10  0]
+ [ 1  0  1 12]]
+2024-04-14 18:54:59,928 - speechbrain.utils.epoch_loop - INFO - Going into epoch 240
+2024-04-14 18:55:00,106 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:55:00,108 - speechbrain.utils.train_logger - INFO - epoch: 240, lr: 7.22e-04 - train loss: 4.44e-01 - valid loss: 6.62e-01, valid f1: 7.51e-01, valid acc: 7.50e-01, valid cm: [[10  0  3  1]
+ [ 0 11  2  1]
+ [ 2  2  9  1]
+ [ 1  0  1 12]]
+2024-04-14 18:55:00,108 - speechbrain.utils.epoch_loop - INFO - Going into epoch 241
+2024-04-14 18:55:00,288 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:55:00,289 - speechbrain.utils.train_logger - INFO - epoch: 241, lr: 5.00e-04 - train loss: 3.58e-01 - valid loss: 6.60e-01, valid f1: 7.64e-01, valid acc: 7.68e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:55:00,289 - speechbrain.utils.epoch_loop - INFO - Going into epoch 242
+2024-04-14 18:55:00,468 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:55:00,470 - speechbrain.utils.train_logger - INFO - epoch: 242, lr: 2.78e-04 - train loss: 3.66e-01 - valid loss: 6.39e-01, valid f1: 7.22e-01, valid acc: 7.32e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 2  2  6  4]
+ [ 1  0  0 13]]
+2024-04-14 18:55:00,470 - speechbrain.utils.epoch_loop - INFO - Going into epoch 243
+2024-04-14 18:55:00,649 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:55:00,651 - speechbrain.utils.train_logger - INFO - epoch: 243, lr: 5.56e-05 - train loss: 3.98e-01 - valid loss: 6.34e-01, valid f1: 7.22e-01, valid acc: 7.32e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 2  2  6  4]
+ [ 1  0  0 13]]
+2024-04-14 18:55:00,651 - speechbrain.utils.epoch_loop - INFO - Going into epoch 244
+2024-04-14 18:55:00,829 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:55:00,831 - speechbrain.utils.train_logger - INFO - epoch: 244, lr: 1.67e-04 - train loss: 4.18e-01 - valid loss: 6.26e-01, valid f1: 7.64e-01, valid acc: 7.68e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:55:00,831 - speechbrain.utils.epoch_loop - INFO - Going into epoch 245
+2024-04-14 18:55:01,011 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:55:01,013 - speechbrain.utils.train_logger - INFO - epoch: 245, lr: 3.89e-04 - train loss: 3.71e-01 - valid loss: 6.24e-01, valid f1: 7.66e-01, valid acc: 7.68e-01, valid cm: [[11  0  2  1]
+ [ 0 11  2  1]
+ [ 1  1  8  4]
+ [ 1  0  0 13]]
+2024-04-14 18:55:01,013 - speechbrain.utils.epoch_loop - INFO - Going into epoch 246
+2024-04-14 18:55:01,191 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:55:01,193 - speechbrain.utils.train_logger - INFO - epoch: 246, lr: 6.11e-04 - train loss: 3.96e-01 - valid loss: 6.29e-01, valid f1: 7.63e-01, valid acc: 7.68e-01, valid cm: [[12  0  1  1]
+ [ 0 11  2  1]
+ [ 1  1  7  5]
+ [ 1  0  0 13]]
+2024-04-14 18:55:01,193 - speechbrain.utils.epoch_loop - INFO - Going into epoch 247
+2024-04-14 18:55:01,370 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:55:01,371 - speechbrain.utils.train_logger - INFO - epoch: 247, lr: 8.33e-04 - train loss: 3.28e-01 - valid loss: 6.39e-01, valid f1: 7.47e-01, valid acc: 7.50e-01, valid cm: [[10  0  3  1]
+ [ 0 11  2  1]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:55:01,372 - speechbrain.utils.epoch_loop - INFO - Going into epoch 248
+2024-04-14 18:55:01,552 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:55:01,554 - speechbrain.utils.train_logger - INFO - epoch: 248, lr: 9.44e-04 - train loss: 3.53e-01 - valid loss: 6.33e-01, valid f1: 7.60e-01, valid acc: 7.68e-01, valid cm: [[11  0  2  1]
+ [ 0 11  2  1]
+ [ 2  2  7  3]
+ [ 0  0  0 14]]
+2024-04-14 18:55:01,554 - speechbrain.utils.epoch_loop - INFO - Going into epoch 249
+2024-04-14 18:55:01,732 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:55:01,733 - speechbrain.utils.train_logger - INFO - epoch: 249, lr: 7.22e-04 - train loss: 3.72e-01 - valid loss: 6.47e-01, valid f1: 7.60e-01, valid acc: 7.68e-01, valid cm: [[11  0  2  1]
+ [ 0 11  2  1]
+ [ 2  2  7  3]
+ [ 0  0  0 14]]
+2024-04-14 18:55:01,734 - speechbrain.utils.epoch_loop - INFO - Going into epoch 250
+2024-04-14 18:55:01,915 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:55:01,916 - speechbrain.utils.train_logger - INFO - epoch: 250, lr: 5.00e-04 - train loss: 3.93e-01 - valid loss: 6.57e-01, valid f1: 7.76e-01, valid acc: 7.86e-01, valid cm: [[12  0  1  1]
+ [ 0 11  1  2]
+ [ 2  2  7  3]
+ [ 0  0  0 14]]
+2024-04-14 18:55:01,917 - speechbrain.utils.epoch_loop - INFO - Going into epoch 251
+2024-04-14 18:55:02,095 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:55:02,096 - speechbrain.utils.train_logger - INFO - epoch: 251, lr: 2.78e-04 - train loss: 3.45e-01 - valid loss: 6.51e-01, valid f1: 7.54e-01, valid acc: 7.68e-01, valid cm: [[12  0  1  1]
+ [ 0 11  1  2]
+ [ 2  2  6  4]
+ [ 0  0  0 14]]
+2024-04-14 18:55:02,097 - speechbrain.utils.epoch_loop - INFO - Going into epoch 252
+2024-04-14 18:55:02,274 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:55:02,276 - speechbrain.utils.train_logger - INFO - epoch: 252, lr: 5.56e-05 - train loss: 2.94e-01 - valid loss: 6.41e-01, valid f1: 7.54e-01, valid acc: 7.68e-01, valid cm: [[12  0  1  1]
+ [ 0 11  1  2]
+ [ 2  2  6  4]
+ [ 0  0  0 14]]
+2024-04-14 18:55:02,276 - speechbrain.utils.epoch_loop - INFO - Going into epoch 253
+2024-04-14 18:55:02,455 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:55:02,456 - speechbrain.utils.train_logger - INFO - epoch: 253, lr: 1.67e-04 - train loss: 3.31e-01 - valid loss: 6.30e-01, valid f1: 7.54e-01, valid acc: 7.68e-01, valid cm: [[12  0  1  1]
+ [ 0 11  1  2]
+ [ 2  2  6  4]
+ [ 0  0  0 14]]
+2024-04-14 18:55:02,456 - speechbrain.utils.epoch_loop - INFO - Going into epoch 254
+2024-04-14 18:55:02,634 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:55:02,635 - speechbrain.utils.train_logger - INFO - epoch: 254, lr: 3.89e-04 - train loss: 3.70e-01 - valid loss: 6.01e-01, valid f1: 7.98e-01, valid acc: 8.04e-01, valid cm: [[12  0  1  1]
+ [ 0 11  2  1]
+ [ 1  2  8  3]
+ [ 0  0  0 14]]
+2024-04-14 18:55:02,635 - speechbrain.utils.epoch_loop - INFO - Going into epoch 255
+2024-04-14 18:55:02,814 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:55:02,816 - speechbrain.utils.train_logger - INFO - epoch: 255, lr: 6.11e-04 - train loss: 3.42e-01 - valid loss: 5.77e-01, valid f1: 7.98e-01, valid acc: 8.04e-01, valid cm: [[12  0  1  1]
+ [ 0 11  2  1]
+ [ 1  2  8  3]
+ [ 0  0  0 14]]
+2024-04-14 18:55:02,816 - speechbrain.utils.epoch_loop - INFO - Going into epoch 256
+2024-04-14 18:55:02,994 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:55:02,996 - speechbrain.utils.train_logger - INFO - epoch: 256, lr: 8.33e-04 - train loss: 3.73e-01 - valid loss: 5.65e-01, valid f1: 7.64e-01, valid acc: 7.68e-01, valid cm: [[11  0  2  1]
+ [ 0 11  2  1]
+ [ 2  2  8  2]
+ [ 1  0  0 13]]
+2024-04-14 18:55:02,996 - speechbrain.utils.epoch_loop - INFO - Going into epoch 257
+2024-04-14 18:55:03,175 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:55:03,177 - speechbrain.utils.train_logger - INFO - epoch: 257, lr: 9.44e-04 - train loss: 3.39e-01 - valid loss: 5.83e-01, valid f1: 7.71e-01, valid acc: 7.68e-01, valid cm: [[10  0  3  1]
+ [ 0 10  3  1]
+ [ 2  1 11  0]
+ [ 1  0  1 12]]
+2024-04-14 18:55:03,177 - speechbrain.utils.epoch_loop - INFO - Going into epoch 258
+2024-04-14 18:55:03,356 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:55:03,358 - speechbrain.utils.train_logger - INFO - epoch: 258, lr: 7.22e-04 - train loss: 3.34e-01 - valid loss: 5.81e-01, valid f1: 7.70e-01, valid acc: 7.68e-01, valid cm: [[11  0  2  1]
+ [ 0 10  3  1]
+ [ 2  1 10  1]
+ [ 1  0  1 12]]
+2024-04-14 18:55:03,358 - speechbrain.utils.epoch_loop - INFO - Going into epoch 259
+2024-04-14 18:55:03,537 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:55:03,539 - speechbrain.utils.train_logger - INFO - epoch: 259, lr: 5.00e-04 - train loss: 3.96e-01 - valid loss: 5.85e-01, valid f1: 7.83e-01, valid acc: 7.86e-01, valid cm: [[12  0  1  1]
+ [ 0 10  2  2]
+ [ 2  1  9  2]
+ [ 1  0  0 13]]
+2024-04-14 18:55:03,539 - speechbrain.utils.epoch_loop - INFO - Going into epoch 260
+2024-04-14 18:55:03,718 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:55:03,719 - speechbrain.utils.train_logger - INFO - epoch: 260, lr: 2.78e-04 - train loss: 3.50e-01 - valid loss: 5.89e-01, valid f1: 8.03e-01, valid acc: 8.04e-01, valid cm: [[12  0  1  1]
+ [ 0 10  2  2]
+ [ 1  1 10  2]
+ [ 1  0  0 13]]
+2024-04-14 18:55:03,720 - speechbrain.utils.epoch_loop - INFO - Going into epoch 261
+2024-04-14 18:55:03,899 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:55:03,900 - speechbrain.utils.train_logger - INFO - epoch: 261, lr: 5.56e-05 - train loss: 3.47e-01 - valid loss: 5.90e-01, valid f1: 7.66e-01, valid acc: 7.68e-01, valid cm: [[11  0  2  1]
+ [ 0 10  2  2]
+ [ 1  2  9  2]
+ [ 1  0  0 13]]
+2024-04-14 18:55:03,901 - speechbrain.utils.epoch_loop - INFO - Going into epoch 262
+2024-04-14 18:55:04,080 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:55:04,082 - speechbrain.utils.train_logger - INFO - epoch: 262, lr: 1.67e-04 - train loss: 3.88e-01 - valid loss: 5.88e-01, valid f1: 7.47e-01, valid acc: 7.50e-01, valid cm: [[11  0  2  1]
+ [ 0 10  2  2]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:55:04,082 - speechbrain.utils.epoch_loop - INFO - Going into epoch 263
+2024-04-14 18:55:04,261 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:55:04,262 - speechbrain.utils.train_logger - INFO - epoch: 263, lr: 3.89e-04 - train loss: 3.66e-01 - valid loss: 5.84e-01, valid f1: 8.02e-01, valid acc: 8.04e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 1  1  9  3]
+ [ 0  0  0 14]]
+2024-04-14 18:55:04,262 - speechbrain.utils.epoch_loop - INFO - Going into epoch 264
+2024-04-14 18:55:04,440 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:55:04,442 - speechbrain.utils.train_logger - INFO - epoch: 264, lr: 6.11e-04 - train loss: 3.52e-01 - valid loss: 5.86e-01, valid f1: 7.80e-01, valid acc: 7.86e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 2  2  8  2]
+ [ 0  0  0 14]]
+2024-04-14 18:55:04,442 - speechbrain.utils.epoch_loop - INFO - Going into epoch 265
+2024-04-14 18:55:04,620 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:55:04,622 - speechbrain.utils.train_logger - INFO - epoch: 265, lr: 8.33e-04 - train loss: 3.33e-01 - valid loss: 6.05e-01, valid f1: 7.66e-01, valid acc: 7.68e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 1  1  8  4]
+ [ 1  0  0 13]]
+2024-04-14 18:55:04,622 - speechbrain.utils.epoch_loop - INFO - Going into epoch 266
+2024-04-14 18:55:04,802 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:55:04,803 - speechbrain.utils.train_logger - INFO - epoch: 266, lr: 9.44e-04 - train loss: 3.09e-01 - valid loss: 6.12e-01, valid f1: 7.61e-01, valid acc: 7.68e-01, valid cm: [[12  0  1  1]
+ [ 0 11  2  1]
+ [ 2  1  7  4]
+ [ 1  0  0 13]]
+2024-04-14 18:55:04,803 - speechbrain.utils.epoch_loop - INFO - Going into epoch 267
+2024-04-14 18:55:04,983 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:55:04,984 - speechbrain.utils.train_logger - INFO - epoch: 267, lr: 7.22e-04 - train loss: 3.58e-01 - valid loss: 5.91e-01, valid f1: 7.98e-01, valid acc: 8.04e-01, valid cm: [[12  0  1  1]
+ [ 0 11  2  1]
+ [ 1  2  8  3]
+ [ 0  0  0 14]]
+2024-04-14 18:55:04,984 - speechbrain.utils.epoch_loop - INFO - Going into epoch 268
+2024-04-14 18:55:05,164 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:55:05,165 - speechbrain.utils.train_logger - INFO - epoch: 268, lr: 5.00e-04 - train loss: 3.70e-01 - valid loss: 6.05e-01, valid f1: 7.98e-01, valid acc: 8.04e-01, valid cm: [[12  0  1  1]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 0  0  0 14]]
+2024-04-14 18:55:05,165 - speechbrain.utils.epoch_loop - INFO - Going into epoch 269
+2024-04-14 18:55:05,344 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:55:05,346 - speechbrain.utils.train_logger - INFO - epoch: 269, lr: 2.78e-04 - train loss: 3.25e-01 - valid loss: 6.04e-01, valid f1: 7.76e-01, valid acc: 7.86e-01, valid cm: [[12  0  1  1]
+ [ 0 11  1  2]
+ [ 2  2  7  3]
+ [ 0  0  0 14]]
+2024-04-14 18:55:05,346 - speechbrain.utils.epoch_loop - INFO - Going into epoch 270
+2024-04-14 18:55:05,524 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:55:05,526 - speechbrain.utils.train_logger - INFO - epoch: 270, lr: 5.56e-05 - train loss: 3.22e-01 - valid loss: 6.04e-01, valid f1: 7.76e-01, valid acc: 7.86e-01, valid cm: [[12  0  1  1]
+ [ 0 11  1  2]
+ [ 2  2  7  3]
+ [ 0  0  0 14]]
+2024-04-14 18:55:05,526 - speechbrain.utils.epoch_loop - INFO - Going into epoch 271
+2024-04-14 18:55:05,704 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:55:05,706 - speechbrain.utils.train_logger - INFO - epoch: 271, lr: 1.67e-04 - train loss: 3.46e-01 - valid loss: 6.01e-01, valid f1: 7.76e-01, valid acc: 7.86e-01, valid cm: [[12  0  1  1]
+ [ 0 11  1  2]
+ [ 2  2  7  3]
+ [ 0  0  0 14]]
+2024-04-14 18:55:05,706 - speechbrain.utils.epoch_loop - INFO - Going into epoch 272
+2024-04-14 18:55:05,884 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:55:05,886 - speechbrain.utils.train_logger - INFO - epoch: 272, lr: 3.89e-04 - train loss: 3.36e-01 - valid loss: 6.12e-01, valid f1: 7.81e-01, valid acc: 7.86e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 0  0  0 14]]
+2024-04-14 18:55:05,886 - speechbrain.utils.epoch_loop - INFO - Going into epoch 273
+2024-04-14 18:55:06,065 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:55:06,066 - speechbrain.utils.train_logger - INFO - epoch: 273, lr: 6.11e-04 - train loss: 3.78e-01 - valid loss: 6.19e-01, valid f1: 7.81e-01, valid acc: 7.86e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 0  0  0 14]]
+2024-04-14 18:55:06,066 - speechbrain.utils.epoch_loop - INFO - Going into epoch 274
+2024-04-14 18:55:06,246 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:55:06,247 - speechbrain.utils.train_logger - INFO - epoch: 274, lr: 8.33e-04 - train loss: 3.27e-01 - valid loss: 6.21e-01, valid f1: 7.45e-01, valid acc: 7.50e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 1  2  7  4]
+ [ 0  1  0 13]]
+2024-04-14 18:55:06,248 - speechbrain.utils.epoch_loop - INFO - Going into epoch 275
+2024-04-14 18:55:06,426 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:55:06,428 - speechbrain.utils.train_logger - INFO - epoch: 275, lr: 9.44e-04 - train loss: 3.66e-01 - valid loss: 6.10e-01, valid f1: 7.64e-01, valid acc: 7.68e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:55:06,428 - speechbrain.utils.epoch_loop - INFO - Going into epoch 276
+2024-04-14 18:55:06,607 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:55:06,608 - speechbrain.utils.train_logger - INFO - epoch: 276, lr: 7.22e-04 - train loss: 3.41e-01 - valid loss: 5.75e-01, valid f1: 8.04e-01, valid acc: 8.04e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 1  1 10  2]
+ [ 1  0  0 13]]
+2024-04-14 18:55:06,609 - speechbrain.utils.epoch_loop - INFO - Going into epoch 277
+2024-04-14 18:55:06,787 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:55:06,788 - speechbrain.utils.train_logger - INFO - epoch: 277, lr: 5.00e-04 - train loss: 3.20e-01 - valid loss: 5.63e-01, valid f1: 7.84e-01, valid acc: 7.86e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 2  1  9  2]
+ [ 1  0  0 13]]
+2024-04-14 18:55:06,789 - speechbrain.utils.epoch_loop - INFO - Going into epoch 278
+2024-04-14 18:55:06,968 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:55:06,969 - speechbrain.utils.train_logger - INFO - epoch: 278, lr: 2.78e-04 - train loss: 3.34e-01 - valid loss: 5.76e-01, valid f1: 7.84e-01, valid acc: 7.86e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 2  1  9  2]
+ [ 1  0  0 13]]
+2024-04-14 18:55:06,969 - speechbrain.utils.epoch_loop - INFO - Going into epoch 279
+2024-04-14 18:55:07,148 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:55:07,149 - speechbrain.utils.train_logger - INFO - epoch: 279, lr: 5.56e-05 - train loss: 3.27e-01 - valid loss: 5.76e-01, valid f1: 7.84e-01, valid acc: 7.86e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 2  1  9  2]
+ [ 1  0  0 13]]
+2024-04-14 18:55:07,150 - speechbrain.utils.epoch_loop - INFO - Going into epoch 280
+2024-04-14 18:55:07,328 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:55:07,330 - speechbrain.utils.train_logger - INFO - epoch: 280, lr: 1.67e-04 - train loss: 2.81e-01 - valid loss: 5.74e-01, valid f1: 7.84e-01, valid acc: 7.86e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 2  1  9  2]
+ [ 1  0  0 13]]
+2024-04-14 18:55:07,330 - speechbrain.utils.epoch_loop - INFO - Going into epoch 281
+2024-04-14 18:55:07,508 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:55:07,509 - speechbrain.utils.train_logger - INFO - epoch: 281, lr: 3.89e-04 - train loss: 2.93e-01 - valid loss: 5.72e-01, valid f1: 8.03e-01, valid acc: 8.04e-01, valid cm: [[12  0  1  1]
+ [ 0 11  1  2]
+ [ 1  1  9  3]
+ [ 1  0  0 13]]
+2024-04-14 18:55:07,510 - speechbrain.utils.epoch_loop - INFO - Going into epoch 282
+2024-04-14 18:55:07,687 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:55:07,689 - speechbrain.utils.train_logger - INFO - epoch: 282, lr: 6.11e-04 - train loss: 2.81e-01 - valid loss: 5.96e-01, valid f1: 7.98e-01, valid acc: 8.04e-01, valid cm: [[12  0  1  1]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 0  0  0 14]]
+2024-04-14 18:55:07,689 - speechbrain.utils.epoch_loop - INFO - Going into epoch 283
+2024-04-14 18:55:07,870 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:55:07,871 - speechbrain.utils.train_logger - INFO - epoch: 283, lr: 8.33e-04 - train loss: 3.11e-01 - valid loss: 6.03e-01, valid f1: 8.20e-01, valid acc: 8.21e-01, valid cm: [[11  0  2  1]
+ [ 0 11  2  1]
+ [ 1  1 10  2]
+ [ 0  0  0 14]]
+2024-04-14 18:55:07,872 - speechbrain.utils.epoch_loop - INFO - Going into epoch 284
+2024-04-14 18:55:08,057 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:55:08,059 - speechbrain.utils.train_logger - INFO - epoch: 284, lr: 9.44e-04 - train loss: 3.40e-01 - valid loss: 6.06e-01, valid f1: 7.61e-01, valid acc: 7.68e-01, valid cm: [[12  0  1  1]
+ [ 0 11  2  1]
+ [ 2  1  7  4]
+ [ 1  0  0 13]]
+2024-04-14 18:55:08,059 - speechbrain.utils.epoch_loop - INFO - Going into epoch 285
+2024-04-14 18:55:08,239 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:55:08,241 - speechbrain.utils.train_logger - INFO - epoch: 285, lr: 7.22e-04 - train loss: 3.02e-01 - valid loss: 6.25e-01, valid f1: 7.59e-01, valid acc: 7.68e-01, valid cm: [[12  1  0  1]
+ [ 0 11  1  2]
+ [ 2  2  7  3]
+ [ 1  0  0 13]]
+2024-04-14 18:55:08,241 - speechbrain.utils.epoch_loop - INFO - Going into epoch 286
+2024-04-14 18:55:08,420 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:55:08,422 - speechbrain.utils.train_logger - INFO - epoch: 286, lr: 5.00e-04 - train loss: 3.34e-01 - valid loss: 6.22e-01, valid f1: 7.64e-01, valid acc: 7.68e-01, valid cm: [[11  1  1  1]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:55:08,422 - speechbrain.utils.epoch_loop - INFO - Going into epoch 287
+2024-04-14 18:55:08,601 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:55:08,602 - speechbrain.utils.train_logger - INFO - epoch: 287, lr: 2.78e-04 - train loss: 3.37e-01 - valid loss: 6.09e-01, valid f1: 7.64e-01, valid acc: 7.68e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:55:08,603 - speechbrain.utils.epoch_loop - INFO - Going into epoch 288
+2024-04-14 18:55:08,781 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:55:08,783 - speechbrain.utils.train_logger - INFO - epoch: 288, lr: 5.56e-05 - train loss: 2.82e-01 - valid loss: 6.04e-01, valid f1: 7.64e-01, valid acc: 7.68e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:55:08,783 - speechbrain.utils.epoch_loop - INFO - Going into epoch 289
+2024-04-14 18:55:08,962 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:55:08,963 - speechbrain.utils.train_logger - INFO - epoch: 289, lr: 1.67e-04 - train loss: 3.12e-01 - valid loss: 5.98e-01, valid f1: 7.64e-01, valid acc: 7.68e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:55:08,964 - speechbrain.utils.epoch_loop - INFO - Going into epoch 290
+2024-04-14 18:55:09,141 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:55:09,142 - speechbrain.utils.train_logger - INFO - epoch: 290, lr: 3.89e-04 - train loss: 3.06e-01 - valid loss: 5.89e-01, valid f1: 7.64e-01, valid acc: 7.68e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:55:09,143 - speechbrain.utils.epoch_loop - INFO - Going into epoch 291
+2024-04-14 18:55:09,321 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:55:09,323 - speechbrain.utils.train_logger - INFO - epoch: 291, lr: 6.11e-04 - train loss: 2.91e-01 - valid loss: 5.84e-01, valid f1: 7.84e-01, valid acc: 7.86e-01, valid cm: [[12  0  1  1]
+ [ 0 10  2  2]
+ [ 1  1  9  3]
+ [ 1  0  0 13]]
+2024-04-14 18:55:09,323 - speechbrain.utils.epoch_loop - INFO - Going into epoch 292
+2024-04-14 18:55:09,500 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:55:09,502 - speechbrain.utils.train_logger - INFO - epoch: 292, lr: 8.33e-04 - train loss: 3.44e-01 - valid loss: 5.75e-01, valid f1: 7.86e-01, valid acc: 7.86e-01, valid cm: [[11  0  2  1]
+ [ 0 10  3  1]
+ [ 2  1 10  1]
+ [ 1  0  0 13]]
+2024-04-14 18:55:09,502 - speechbrain.utils.epoch_loop - INFO - Going into epoch 293
+2024-04-14 18:55:09,680 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:55:09,682 - speechbrain.utils.train_logger - INFO - epoch: 293, lr: 9.44e-04 - train loss: 3.49e-01 - valid loss: 6.05e-01, valid f1: 7.64e-01, valid acc: 7.68e-01, valid cm: [[12  0  1  1]
+ [ 0 10  2  2]
+ [ 2  1  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:55:09,682 - speechbrain.utils.epoch_loop - INFO - Going into epoch 294
+2024-04-14 18:55:09,861 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:55:09,863 - speechbrain.utils.train_logger - INFO - epoch: 294, lr: 7.22e-04 - train loss: 3.44e-01 - valid loss: 6.15e-01, valid f1: 7.67e-01, valid acc: 7.68e-01, valid cm: [[11  0  2  1]
+ [ 0 10  3  1]
+ [ 2  1  9  2]
+ [ 1  0  0 13]]
+2024-04-14 18:55:09,863 - speechbrain.utils.epoch_loop - INFO - Going into epoch 295
+2024-04-14 18:55:10,043 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:55:10,045 - speechbrain.utils.train_logger - INFO - epoch: 295, lr: 5.00e-04 - train loss: 3.42e-01 - valid loss: 5.88e-01, valid f1: 7.84e-01, valid acc: 7.86e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 1  2  9  2]
+ [ 1  0  0 13]]
+2024-04-14 18:55:10,045 - speechbrain.utils.epoch_loop - INFO - Going into epoch 296
+2024-04-14 18:55:10,224 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:55:10,225 - speechbrain.utils.train_logger - INFO - epoch: 296, lr: 2.78e-04 - train loss: 3.66e-01 - valid loss: 5.73e-01, valid f1: 7.64e-01, valid acc: 7.68e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:55:10,226 - speechbrain.utils.epoch_loop - INFO - Going into epoch 297
+2024-04-14 18:55:10,403 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:55:10,404 - speechbrain.utils.train_logger - INFO - epoch: 297, lr: 5.56e-05 - train loss: 3.26e-01 - valid loss: 5.69e-01, valid f1: 7.64e-01, valid acc: 7.68e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:55:10,404 - speechbrain.utils.epoch_loop - INFO - Going into epoch 298
+2024-04-14 18:55:10,582 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:55:10,584 - speechbrain.utils.train_logger - INFO - epoch: 298, lr: 1.67e-04 - train loss: 3.18e-01 - valid loss: 5.67e-01, valid f1: 7.64e-01, valid acc: 7.68e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:55:10,584 - speechbrain.utils.epoch_loop - INFO - Going into epoch 299
+2024-04-14 18:55:10,764 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:55:10,766 - speechbrain.utils.train_logger - INFO - epoch: 299, lr: 3.89e-04 - train loss: 2.91e-01 - valid loss: 5.75e-01, valid f1: 7.82e-01, valid acc: 7.86e-01, valid cm: [[12  0  1  1]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:55:10,766 - speechbrain.utils.epoch_loop - INFO - Going into epoch 300
+2024-04-14 18:55:10,944 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:55:10,946 - speechbrain.utils.train_logger - INFO - epoch: 300, lr: 6.11e-04 - train loss: 3.23e-01 - valid loss: 5.94e-01, valid f1: 7.98e-01, valid acc: 8.04e-01, valid cm: [[12  0  1  1]
+ [ 0 11  1  2]
+ [ 2  1  8  3]
+ [ 0  0  0 14]]
+2024-04-14 18:55:10,946 - speechbrain.utils.epoch_loop - INFO - Going into epoch 301
+2024-04-14 18:55:11,126 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:55:11,127 - speechbrain.utils.train_logger - INFO - epoch: 301, lr: 8.33e-04 - train loss: 3.37e-01 - valid loss: 6.08e-01, valid f1: 8.02e-01, valid acc: 8.04e-01, valid cm: [[11  0  2  1]
+ [ 0 11  2  1]
+ [ 1  1  9  3]
+ [ 0  0  0 14]]
+2024-04-14 18:55:11,128 - speechbrain.utils.epoch_loop - INFO - Going into epoch 302
+2024-04-14 18:55:11,305 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:55:11,307 - speechbrain.utils.train_logger - INFO - epoch: 302, lr: 9.44e-04 - train loss: 2.93e-01 - valid loss: 6.40e-01, valid f1: 7.81e-01, valid acc: 7.86e-01, valid cm: [[11  0  2  1]
+ [ 0 11  2  1]
+ [ 1  2  8  3]
+ [ 0  0  0 14]]
+2024-04-14 18:55:11,307 - speechbrain.utils.epoch_loop - INFO - Going into epoch 303
+2024-04-14 18:55:11,485 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:55:11,486 - speechbrain.utils.train_logger - INFO - epoch: 303, lr: 7.22e-04 - train loss: 3.08e-01 - valid loss: 6.22e-01, valid f1: 7.61e-01, valid acc: 7.68e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 1  2  7  4]
+ [ 0  0  0 14]]
+2024-04-14 18:55:11,487 - speechbrain.utils.epoch_loop - INFO - Going into epoch 304
+2024-04-14 18:55:11,668 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:55:11,669 - speechbrain.utils.train_logger - INFO - epoch: 304, lr: 5.00e-04 - train loss: 2.87e-01 - valid loss: 6.27e-01, valid f1: 7.78e-01, valid acc: 7.86e-01, valid cm: [[12  0  1  1]
+ [ 0 11  1  2]
+ [ 1  2  7  4]
+ [ 0  0  0 14]]
+2024-04-14 18:55:11,670 - speechbrain.utils.epoch_loop - INFO - Going into epoch 305
+2024-04-14 18:55:11,847 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:55:11,849 - speechbrain.utils.train_logger - INFO - epoch: 305, lr: 2.78e-04 - train loss: 3.28e-01 - valid loss: 6.18e-01, valid f1: 7.44e-01, valid acc: 7.50e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 1  2  7  4]
+ [ 1  0  0 13]]
+2024-04-14 18:55:11,849 - speechbrain.utils.epoch_loop - INFO - Going into epoch 306
+2024-04-14 18:55:12,028 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:55:12,029 - speechbrain.utils.train_logger - INFO - epoch: 306, lr: 5.56e-05 - train loss: 3.27e-01 - valid loss: 6.06e-01, valid f1: 7.44e-01, valid acc: 7.50e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 1  2  7  4]
+ [ 1  0  0 13]]
+2024-04-14 18:55:12,029 - speechbrain.utils.epoch_loop - INFO - Going into epoch 307
+2024-04-14 18:55:12,210 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:55:12,211 - speechbrain.utils.train_logger - INFO - epoch: 307, lr: 1.67e-04 - train loss: 2.98e-01 - valid loss: 5.98e-01, valid f1: 7.44e-01, valid acc: 7.50e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 1  2  7  4]
+ [ 1  0  0 13]]
+2024-04-14 18:55:12,211 - speechbrain.utils.epoch_loop - INFO - Going into epoch 308
+2024-04-14 18:55:12,390 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:55:12,391 - speechbrain.utils.train_logger - INFO - epoch: 308, lr: 3.89e-04 - train loss: 2.71e-01 - valid loss: 5.90e-01, valid f1: 7.61e-01, valid acc: 7.68e-01, valid cm: [[12  0  1  1]
+ [ 0 11  2  1]
+ [ 1  2  7  4]
+ [ 1  0  0 13]]
+2024-04-14 18:55:12,410 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test/save/CKPT+2024-04-14+18-55-12+00
+2024-04-14 18:55:12,434 - speechbrain.utils.epoch_loop - INFO - Going into epoch 309
+2024-04-14 18:55:12,614 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:55:12,616 - speechbrain.utils.train_logger - INFO - epoch: 309, lr: 6.11e-04 - train loss: 2.87e-01 - valid loss: 5.97e-01, valid f1: 7.37e-01, valid acc: 7.50e-01, valid cm: [[12  0  1  1]
+ [ 0 11  1  2]
+ [ 3  2  6  3]
+ [ 1  0  0 13]]
+2024-04-14 18:55:12,636 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test/save/CKPT+2024-04-14+18-55-12+01
+2024-04-14 18:55:12,696 - speechbrain.utils.epoch_loop - INFO - Going into epoch 310
+2024-04-14 18:55:12,874 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:55:12,875 - speechbrain.utils.train_logger - INFO - epoch: 310, lr: 8.33e-04 - train loss: 3.87e-01 - valid loss: 5.90e-01, valid f1: 7.61e-01, valid acc: 7.68e-01, valid cm: [[12  0  1  1]
+ [ 0 11  1  2]
+ [ 3  1  7  3]
+ [ 1  0  0 13]]
+2024-04-14 18:55:12,898 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test/save/CKPT+2024-04-14+18-55-12+02
+2024-04-14 18:55:13,011 - speechbrain.utils.epoch_loop - INFO - Going into epoch 311
+2024-04-14 18:55:13,191 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:55:13,193 - speechbrain.utils.train_logger - INFO - epoch: 311, lr: 9.44e-04 - train loss: 2.86e-01 - valid loss: 5.82e-01, valid f1: 7.81e-01, valid acc: 7.86e-01, valid cm: [[11  0  2  1]
+ [ 0 10  2  2]
+ [ 3  2  9  0]
+ [ 0  0  0 14]]
+2024-04-14 18:55:13,213 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test/save/CKPT+2024-04-14+18-55-13+00
+2024-04-14 18:55:13,398 - speechbrain.utils.epoch_loop - INFO - Going into epoch 312
+2024-04-14 18:55:13,581 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00061
+2024-04-14 18:55:13,583 - speechbrain.utils.train_logger - INFO - epoch: 312, lr: 7.22e-04 - train loss: 3.22e-01 - valid loss: 5.90e-01, valid f1: 8.00e-01, valid acc: 8.04e-01, valid cm: [[11  0  2  1]
+ [ 0 11  2  1]
+ [ 3  2  9  0]
+ [ 0  0  0 14]]
+2024-04-14 18:55:13,603 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test/save/CKPT+2024-04-14+18-55-13+01
+2024-04-14 18:55:13,878 - speechbrain.utils.epoch_loop - INFO - Going into epoch 313
+2024-04-14 18:55:14,059 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.00039
+2024-04-14 18:55:14,061 - speechbrain.utils.train_logger - INFO - epoch: 313, lr: 5.00e-04 - train loss: 3.20e-01 - valid loss: 6.04e-01, valid f1: 7.53e-01, valid acc: 7.68e-01, valid cm: [[12  0  1  1]
+ [ 0 11  2  1]
+ [ 3  2  6  3]
+ [ 0  0  0 14]]
+2024-04-14 18:55:14,080 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test/save/CKPT+2024-04-14+18-55-14+00
+2024-04-14 18:55:14,460 - speechbrain.utils.epoch_loop - INFO - Going into epoch 314
+2024-04-14 18:55:14,643 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00017
+2024-04-14 18:55:14,645 - speechbrain.utils.train_logger - INFO - epoch: 314, lr: 2.78e-04 - train loss: 2.82e-01 - valid loss: 6.15e-01, valid f1: 7.54e-01, valid acc: 7.68e-01, valid cm: [[12  0  1  1]
+ [ 0 11  1  2]
+ [ 2  2  6  4]
+ [ 0  0  0 14]]
+2024-04-14 18:55:14,665 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test/save/CKPT+2024-04-14+18-55-14+01
+2024-04-14 18:55:15,164 - speechbrain.utils.epoch_loop - INFO - Going into epoch 315
+2024-04-14 18:55:15,342 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-08 to 5.6e-05
+2024-04-14 18:55:15,343 - speechbrain.utils.train_logger - INFO - epoch: 315, lr: 5.56e-05 - train loss: 2.81e-01 - valid loss: 6.19e-01, valid f1: 7.54e-01, valid acc: 7.68e-01, valid cm: [[12  0  1  1]
+ [ 0 11  1  2]
+ [ 2  2  6  4]
+ [ 0  0  0 14]]
+2024-04-14 18:55:15,363 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test/save/CKPT+2024-04-14+18-55-15+00
+2024-04-14 18:55:16,006 - speechbrain.utils.epoch_loop - INFO - Going into epoch 316
+2024-04-14 18:55:16,187 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00022 to 0.00028
+2024-04-14 18:55:16,189 - speechbrain.utils.train_logger - INFO - epoch: 316, lr: 1.67e-04 - train loss: 3.21e-01 - valid loss: 6.14e-01, valid f1: 7.54e-01, valid acc: 7.68e-01, valid cm: [[12  0  1  1]
+ [ 0 11  1  2]
+ [ 2  2  6  4]
+ [ 0  0  0 14]]
+2024-04-14 18:55:16,208 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test/save/CKPT+2024-04-14+18-55-16+00
+2024-04-14 18:55:17,013 - speechbrain.utils.epoch_loop - INFO - Going into epoch 317
+2024-04-14 18:55:17,191 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00044 to 0.0005
+2024-04-14 18:55:17,192 - speechbrain.utils.train_logger - INFO - epoch: 317, lr: 3.89e-04 - train loss: 2.30e-01 - valid loss: 6.07e-01, valid f1: 7.78e-01, valid acc: 7.86e-01, valid cm: [[12  0  1  1]
+ [ 0 11  1  2]
+ [ 1  2  7  4]
+ [ 0  0  0 14]]
+2024-04-14 18:55:17,212 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test/save/CKPT+2024-04-14+18-55-17+00
+2024-04-14 18:55:18,184 - speechbrain.utils.epoch_loop - INFO - Going into epoch 318
+2024-04-14 18:55:18,361 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00067 to 0.00072
+2024-04-14 18:55:18,362 - speechbrain.utils.train_logger - INFO - epoch: 318, lr: 6.11e-04 - train loss: 2.85e-01 - valid loss: 5.99e-01, valid f1: 7.64e-01, valid acc: 7.68e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:55:18,381 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test/save/CKPT+2024-04-14+18-55-18+00
+2024-04-14 18:55:19,533 - speechbrain.utils.epoch_loop - INFO - Going into epoch 319
+2024-04-14 18:55:19,712 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00094
+2024-04-14 18:55:19,713 - speechbrain.utils.train_logger - INFO - epoch: 319, lr: 8.33e-04 - train loss: 2.60e-01 - valid loss: 6.08e-01, valid f1: 7.64e-01, valid acc: 7.68e-01, valid cm: [[11  0  2  1]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 1  0  0 13]]
+2024-04-14 18:55:19,732 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test/save/CKPT+2024-04-14+18-55-19+00
+2024-04-14 18:55:21,078 - speechbrain.utils.epoch_loop - INFO - Going into epoch 320
+2024-04-14 18:55:21,258 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00089 to 0.00083
+2024-04-14 18:55:21,259 - speechbrain.utils.train_logger - INFO - epoch: 320, lr: 9.44e-04 - train loss: 3.61e-01 - valid loss: 6.40e-01, valid f1: 7.82e-01, valid acc: 7.86e-01, valid cm: [[11  0  1  2]
+ [ 0 11  1  2]
+ [ 1  2  8  3]
+ [ 0  0  0 14]]
+2024-04-14 18:55:21,279 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test/save/CKPT+2024-04-14+18-55-21+00
+2024-04-14 18:55:22,914 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test/save/CKPT+2024-04-14+18-55-21+00
+2024-04-14 18:55:23,110 - speechbrain.utils.train_logger - INFO - epoch loaded: 320 - test loss: 7.25e-01, test f1: 7.38e-01, test acc: 7.36e-01, test cm: [[56  0 10  6]
+ [ 2 56  8  6]
+ [ 4  7 43 18]
+ [ 1  6  8 57]]
+2024-04-14 18:55:23,129 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test/save/CKPT+2024-04-14+18-55-23+00
+2024-04-14 18:55:24,975 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test/save/CKPT+2024-04-14+18-55-18+00
+2024-04-14 18:55:24,981 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test/save/CKPT+2024-04-14+18-55-21+00
+2024-04-14 18:55:24,988 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test/save/CKPT+2024-04-14+18-55-16+00
+2024-04-14 18:55:24,995 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test/save/CKPT+2024-04-14+18-55-15+00
+2024-04-14 18:55:25,002 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test/save/CKPT+2024-04-14+18-55-12+00
+2024-04-14 18:55:25,009 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test/save/CKPT+2024-04-14+18-55-13+00
+2024-04-14 18:55:25,016 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test/save/CKPT+2024-04-14+18-55-14+01
+2024-04-14 18:55:25,023 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test/save/CKPT+2024-04-14+18-55-12+02
+2024-04-14 18:55:25,029 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test/save/CKPT+2024-04-14+18-55-12+01
+2024-04-14 18:55:25,036 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test/save/CKPT+2024-04-14+18-55-19+00
+2024-04-14 18:55:25,043 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test/save/CKPT+2024-04-14+18-55-17+00
+2024-04-14 18:55:25,051 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test/save/CKPT+2024-04-14+18-55-13+01
+2024-04-14 18:55:25,057 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test/save/CKPT+2024-04-14+18-55-14+00
+2024-04-14 18:55:25,065 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from results/MotorImagery/BNCI2014001/CNN/hopt/best/IBYHec/run8/1993/leave-one-session-out/sub-008/1test/save/CKPT+2024-04-14+18-55-23+00
+2024-04-14 18:55:25,126 - speechbrain.utils.train_logger - INFO - epoch loaded: 320 - valid loss: 9.99e-02, valid f1: 7.78e-01, valid acc: 7.86e-01, valid cm: [[12  0  1  1]
+ [ 0 11  1  2]
+ [ 1  2  7  4]
+ [ 0  0  0 14]]

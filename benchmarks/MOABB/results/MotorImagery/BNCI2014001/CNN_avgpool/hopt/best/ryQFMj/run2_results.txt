@@ -1,0 +1,7 @@
+
+---- leave-one-session-out ----
+0train acc 0.691 ± 0.1037
+1test acc 0.6879 ± 0.1085
+
+Aggregated results
+acc 0.689429012345679 +- 0.0015432098765431612

@@ -1,0 +1,81 @@
+ /home/purpowl/.local/lib/python3.10/site-packages/orion/benchmark/task/profet/model_utils.py:32: RuntimeWarning:The `profet` extras needs to be installed in order to use the Profet tasks.
+Error: cannot import name 'Tester' from 'numpy.testing' (/home/purpowl/.local/lib/python3.10/site-packages/numpy/testing/__init__.py)
+Use `pip install orion[profet]` to install the profet extras.
+Identification
+==============
+name: CNN_maxpooling_hopt_step2
+version: 1
+user: purpowl
+
+
+Commandline
+===========
+./run_experiments.sh --hparams results/MotorImagery/BNCI2014001/CNN/hopt/step1/best_hparams.yaml --data_folder eeg_data/ --seed 1986 --output_folder results/MotorImagery/BNCI2014001/CNN/hopt/step2/exp --nsbj 3 --nsess 2 --nruns 1 --eval_metric acc --eval_set dev --train_mode leave-one-session-out --rnd_dir True --max_num_segments~uniform(2, 6, discrete=True) --amp_delta~uniform(0.0, 0.5) --snr_white_low~uniform(0.0, 15, precision=2) --snr_white_delta~uniform(5.0, 20.0, precision=3)
+
+
+Config
+======
+max trials: 50
+max broken: 3
+working dir: 
+
+
+Algorithm
+=========
+tpe:
+    equal_weight: False
+    full_weight_num: 25
+    gamma: 0.25
+    max_retry: 100
+    n_ei_candidates: 24
+    n_initial_points: 20
+    parallel_strategy:
+        of_type: StatusBasedParallelStrategy
+        strategy_configs:
+            broken:
+                of_type: MaxParallelStrategy
+    prior_weight: 1.0
+    seed: 1986
+
+
+Space
+=====
+/amp_delta: uniform(0.0, 0.5)
+/max_num_segments: uniform(2, 6, discrete=True)
+/snr_white_delta: uniform(5.0, 20.0, precision=3)
+/snr_white_low: uniform(0.0, 15.0, precision=2)
+
+
+Meta-data
+=========
+user: purpowl
+datetime: 2024-04-14 13:31:16.492928
+orion version: 0.2.7
+VCS:
+
+
+
+Parent experiment
+=================
+root:
+parent:
+adapter:
+
+
+Stats
+=====
+completed: True
+trials completed: 50
+best trial:
+  id: 9bffa26fba4519d72e52502538a1d95d
+  evaluation: 0.26190476190476186
+  params:
+    /amp_delta: 0.4102
+    /max_num_segments: 5
+    /snr_white_delta: 12.0
+    /snr_white_low: 6.7
+start time: 2024-04-14 13:31:16.492928
+finish time: 2024-04-14 19:56:50.041911
+elapsed_time: 6:25:32.677133
+
+
