@@ -1,0 +1,1 @@
+../ecapa_tdnn/voxceleb_prepare.py

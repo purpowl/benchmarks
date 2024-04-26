@@ -1,0 +1,6 @@
+mne
+moabb
+orion
+orion[profet]
+scikit-learn
+torchinfo
